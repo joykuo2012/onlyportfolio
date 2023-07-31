@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* header part */
+header {
+  .firstheader {
+    width: 100%;
+    height: 150px;
+    padding: 10px 0px;
+    .image {
+      height: 15vh;
+      img {
+        width: 50px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+.secondheader {
+  background-color: #fff;
+  box-shadow: 0px 20px 20px rgba(80, 80, 80, 0.4);
+  position: sticky;
+  top: 0;
+  padding: 10px 0px;
+  height: 60px;
+  z-index: 1000;
+  ul {
+    li {
+      a {
+        color: #6d6d6d;
+        text-decoration: none;
+        margin: 0px 10px;
+        padding: 10px 30px;
+        position: relative;
+        z-index: 0;
+        cursor: pointer;
+      }
+      a:before,
+      a:after {
+        position: absolute;
+        opacity: 0.5;
+        height: 100%;
+        width: 2px;
+        content: "";
+        background: #acacac;
+        transition: all 0.3s;
+      }
+      a:before {
+        left: 0px;
+        top: 0px;
+      }
+      a:after {
+        right: 0px;
+        bottom: 0px;
+      }
+      /*看看是否可以改字體顏色*/
+      a:hover:before,
+      a:hover:after {
+        opacity: 1;
+        height: 2px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* main part */
+main {
+  .background {
+    background-color: #373737;
+    width: 100%;
+    height: 530vh;
+    margin-top: 10vh;
+    border-radius: 226px;
+
+    /* 一頁式網站 */
+    .onepage {
+      .grid {
+        h2 {
+          position: relative;
+          top: 100px;
+          color: #e1e1e1;
+          font-weight: 300;
+          letter-spacing: 20px;
+        }
+        .boxLine {
+          position: relative;
+          top: 120px;
+          left: 25vw;
+          background-color: #cecece;
+          align-items: center;
+          width: 50%;
+          height: 10px;
+        }
+        .row {
+          top: 25vh;
+          .col-md-6 {
+            .w-1 {
+              width: 90%;
+            }
+          }
+        }
+        .col-md-6 {
+          .mt-0 {
+            color: #f2f2f2;
+            letter-spacing: 10px;
+            padding: 50px;
+          }
+          p {
+            color: #f2f2f2;
+            font-weight: 200;
+            line-height: 35px;
+            margin-bottom: 80px;
+          }
+          a {
+            background-color: #d9d9d9;
+            padding: 15px 20px;
+            box-shadow: 18px 15px 0px #000000;
+            text-decoration: none;
+            color: #000000;
+            border-radius: 0 30px 0 0;
+            transition: 0.3s ease;
+          }
+          a:hover {
+            color: #333333;
+            background-color: #ffed4d;
+          }
+        }
+      }
+      .smallerimages {
+        margin-top: 28vh;
+        margin-left: 3vw;
+        .slide-top {
+          width: 18%;
+          transform: translateY(0);
+          transition: all 0.3s ease-out;
+        }
+        .slide-top:hover {
+          transform: translateY(-20px);
+        }
+      }
+    }
+  }
+
+  /* 購物式網站 */
+  .secondpage {
+    background-color: #eeeeee;
+    margin-top: 10vh;
+    height: 140vh;
+    .grid {
+      h2 {
+        position: relative;
+        top: 100px;
+        color: #434343;
+        font-weight: 300;
+        letter-spacing: 20px;
+      }
+      .boxLine {
+        position: relative;
+        top: 120px;
+        left: 25vw;
+        background-color: #cecece;
+        align-items: center;
+        width: 50%;
+        height: 10px;
+      }
+      .carousel {
+        .carousel-inner {
+          .carousel-item {
+            margin-top: 25vh;
+            img {
+              width: 80%;
+              background-color: #fff;
+              padding: 10px 50px 150px 50px;
+              border-radius: 0px 0px 100px 0px;
+            }
+            .carousel-caption {
+              h5 {
+                color: #000000;
+              }
+              p {
+                color: #000000;
+                font-weight: 300;
+              }
+              a {
+                background-color: #d9d9d9;
+                padding: 15px;
+                border-radius: 20px;
+                color: #000000;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* UI/UX設計圖 */
+  .thirdpage {
+    background-color: #eeeeee;
+    height: 150vh;
+    .grid {
+      h2 {
+        position: relative;
+        top: 100px;
+        color: #434343;
+        font-weight: 300;
+        letter-spacing: 20px;
+      }
+      .boxLine {
+        position: relative;
+        top: 120px;
+        left: 25vw;
+        background-color: #cecece;
+        align-items: center;
+        width: 50%;
+        height: 10px;
+      }
+    }
+    .container {
+      margin-top: 18vh;
+      .row {
+        .col {
+          iframe {
+            margin-top: 15px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+          }
+          iframe:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+  /* 小物設計 */
+  .fourpage {
+    .grid {
+      h2 {
+        position: relative;
+        top: 100px;
+        color: #e1e1e1;
+        font-weight: 300;
+        letter-spacing: 20px;
+      }
+      .boxLine {
+        position: relative;
+        top: 120px;
+        left: 25vw;
+        background-color: #cecece;
+        align-items: center;
+        width: 50%;
+        height: 10px;
+      }
+    }
+    .container {
+      margin-top: 18vh;
+      .row {
+        .col {
+          iframe {
+            margin-top: 15px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+          }
+          iframe:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+
+@media screen and (min-width: 1520px) and (max-width: 1920px) {
+  header {
+    .fixed-top {
+      max-height: 20%;
+    }
+  }
+  main {
+    .background {
+      margin-top: 25vh;
+      border-radius: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  main {
+    .secondpage {
+      .carousel-inner {
+        .carousel-item {
+          .carousel-caption {
+            p {
+              font-size: 0.8em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    .fixed-top {
+      min-height: 40%;
+    }
+    .container {
+      li {
+        padding: 5px 0px;
+      }
+    }
+  }
+  main {
+    .background {
+      margin-top: 10vh;
+      border-radius: 150px;
+      .secondpage {
+        .grid {
+          .carousel-inner {
+            .carousel-item {
+              img {
+                padding: 10px 10px 10px 10px;
+                border-radius: 0px 0px 0px 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .secondheader {
+    min-height: 17vh;
+  }
+  main {
+    .background {
+      margin-top: 10vh;
+    }
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .secondheader {
+    min-height: 17vh;
+  }
+  main {
+    .background {
+      margin-top: 10vh;
+      border-radius: 100px;
+    }
+  }
+}
+
+/* phone devices */
+@media screen and (max-width: 414px) {
+  header {
+    .fixed-top {
+      min-height: 35%;
+    }
+  }
+  .secondheader {
+    min-height: 14vh;
+  }
+  main {
+    .background {
+      margin-top: 10vh;
+      border-radius: 85px;
+      height: 330vh;
+      .secondpage {
+        height: 50vh;
+        .grid {
+          .carousel-inner {
+            .carousel-item {
+              margin-top: 18vh;
+            }
+          }
+        }
+      }
+      .thirdpage {
+        height: 80vh;
+        iframe {
+          width: 100%;
+          height: 200px;
+        }
+      }
+      .fourpage {
+        iframe {
+          width: 100%;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    .fixed-top {
+      min-height: 40%;
+    }
+  }
+  .secondheader {
+    min-height: 17vh;
+  }
+  main {
+    .background {
+      margin-top: 10vh;
+      border-radius: 80px;
+      height: 400vh;
+      .thirdpage {
+        height: 100vh;
+      }
+    }
+  }
+}
