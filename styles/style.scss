@@ -26,7 +26,7 @@ header {
   position: sticky;
   top: 0;
   padding: 10px 0px;
-  height: 60px;
+  height: 10vh;
   z-index: 1000;
   ul {
     li {
@@ -73,7 +73,7 @@ main {
   .background {
     background-color: #373737;
     width: 100%;
-    height: 530vh;
+    height: 630vh;
     margin-top: 10vh;
     border-radius: 226px;
 
@@ -96,51 +96,35 @@ main {
           width: 50%;
           height: 10px;
         }
-        .row {
-          top: 25vh;
-          .col-md-6 {
-            .w-1 {
-              width: 90%;
+        .container {
+          margin-top: 18vh;
+          .row {
+            .col {
+              img {
+                margin-top: 5vh;
+              }
+              h5 {
+                color: #f2f2f2;
+                font-weight: 400;
+              }
+              p {
+                color: #f2f2f2;
+                font-weight: 200;
+              }
+              a {
+                text-decoration: none;
+                background-color: #d9d9d9;
+                border-radius: 32px;
+                padding: 10px 20px;
+                color: #000000;
+                transition: all 0.3s ease;
+              }
+              a:hover {
+                background-color: #929292;
+                color: white;
+              }
             }
           }
-        }
-        .col-md-6 {
-          .mt-0 {
-            color: #f2f2f2;
-            letter-spacing: 10px;
-            padding: 50px;
-          }
-          p {
-            color: #f2f2f2;
-            font-weight: 200;
-            line-height: 35px;
-            margin-bottom: 80px;
-          }
-          a {
-            background-color: #d9d9d9;
-            padding: 15px 20px;
-            box-shadow: 18px 15px 0px #000000;
-            text-decoration: none;
-            color: #000000;
-            border-radius: 0 30px 0 0;
-            transition: 0.3s ease;
-          }
-          a:hover {
-            color: #333333;
-            background-color: #ffed4d;
-          }
-        }
-      }
-      .smallerimages {
-        margin-top: 28vh;
-        margin-left: 3vw;
-        .slide-top {
-          width: 18%;
-          transform: translateY(0);
-          transition: all 0.3s ease-out;
-        }
-        .slide-top:hover {
-          transform: translateY(-20px);
         }
       }
     }
@@ -235,6 +219,20 @@ main {
           }
         }
       }
+      .collapse {
+        .card {
+          z-index: 1000;
+          .container {
+            .row {
+              .col {
+                img {
+                  width: 90%;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 
@@ -298,8 +296,19 @@ footer {
   }
 }
 
+@media screen and (max-width: 1420px) {
+  main {
+    .background {
+      height: 680vh;
+    }
+  }
+}
+
 @media screen and (max-width: 1019px) {
   main {
+    .background {
+      border-radius: 150px;
+    }
     .secondpage {
       .carousel-inner {
         .carousel-item {
@@ -311,6 +320,36 @@ footer {
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  main {
+    .background {
+      height: 780vh;
+      .secondpage {
+        height: 100vh;
+      }
+      .thirdpage {
+        height: 130vh;
+        .container {
+          .row {
+            .col {
+              iframe {
+                width: 100%;
+                height: 300px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .secondheader {
+    height: 15vh;
   }
 }
 
@@ -341,83 +380,94 @@ footer {
           }
         }
       }
-    }
-  }
-}
-
-@media screen and (max-width: 665px) {
-  .secondheader {
-    min-height: 17vh;
-  }
-  main {
-    .background {
-      margin-top: 10vh;
-    }
-  }
-}
-
-@media screen and (max-width: 545px) {
-  .secondheader {
-    min-height: 17vh;
-  }
-  main {
-    .background {
-      margin-top: 10vh;
-      border-radius: 100px;
-    }
-  }
-}
-
-/* phone devices */
-@media screen and (max-width: 414px) {
-  header {
-    .fixed-top {
-      min-height: 35%;
-    }
-  }
-  .secondheader {
-    min-height: 14vh;
-  }
-  main {
-    .background {
-      margin-top: 10vh;
-      border-radius: 85px;
-      height: 330vh;
-      .secondpage {
-        height: 50vh;
-        .grid {
-          .carousel-inner {
-            .carousel-item {
-              margin-top: 18vh;
+      .fourpage {
+        .container {
+          .row {
+            .col {
+              iframe {
+                width: 100%;
+              }
             }
           }
         }
       }
-      .thirdpage {
-        height: 80vh;
-        iframe {
-          width: 100%;
-          height: 200px;
-        }
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    .secondheader {
+      min-height: 17vh;
+    }
+    main {
+      .background {
+        margin-top: 10vh;
       }
-      .fourpage {
-        iframe {
-          width: 100%;
-          height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 545px) {
+    .secondheader {
+      min-height: 17vh;
+    }
+    main {
+      .background {
+        margin-top: 10vh;
+        border-radius: 100px;
+      }
+    }
+  }
+
+  /* phone devices */
+  @media screen and (max-width: 414px) {
+    header {
+      .fixed-top {
+        min-height: 35%;
+      }
+    }
+    .secondheader {
+      min-height: 18vh;
+    }
+    main {
+      .background {
+        margin-top: 10vh;
+        border-radius: 85px;
+        height: 330vh;
+        .secondpage {
+          height: 50vh;
+          .grid {
+            .carousel-inner {
+              .carousel-item {
+                margin-top: 18vh;
+              }
+            }
+          }
+        }
+        .thirdpage {
+          height: 80vh;
+          iframe {
+            width: 100%;
+            height: 200px;
+          }
+        }
+        .fourpage {
+          iframe {
+            width: 100%;
+            height: 300px;
+          }
         }
       }
     }
   }
-}
 
-@media screen and (max-width: 375px) {
-  header {
-    .fixed-top {
-      min-height: 40%;
+  @media screen and (max-width: 375px) {
+    header {
+      .fixed-top {
+        min-height: 40%;
+      }
     }
   }
   .secondheader {
-    min-height: 17vh;
+    min-height: 23vh;
   }
   main {
     .background {
