@@ -353,6 +353,7 @@ footer {
   }
 }
 
+/* 跟height有關都沒有反應 */
 @media screen and (max-width: 767px) {
   header {
     .fixed-top {
@@ -364,11 +365,15 @@ footer {
       }
     }
   }
+  .secondheader{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
   main {
     .background {
       margin-top: 10vh;
       border-radius: 150px;
       .secondpage {
+        height: 80vh;
         .grid {
           .carousel-inner {
             .carousel-item {
@@ -379,6 +384,9 @@ footer {
             }
           }
         }
+      }
+      .thirdpage{
+        min-height: 120vh;
       }
       .fourpage {
         .container {

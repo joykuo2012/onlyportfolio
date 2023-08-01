@@ -281,6 +281,7 @@ footer {
     height: 15vh;
   }
 }
+/* 跟height有關都沒有反應 */
 @media screen and (max-width: 767px) {
   header .fixed-top {
     min-height: 40%;
@@ -288,13 +289,22 @@ footer {
   header .container li {
     padding: 5px 0px;
   }
+  .secondheader {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
   main .background {
     margin-top: 10vh;
     border-radius: 150px;
   }
+  main .background .secondpage {
+    height: 80vh;
+  }
   main .background .secondpage .grid .carousel-inner .carousel-item img {
     padding: 10px 10px 10px 10px;
     border-radius: 0px 0px 0px 0px;
+  }
+  main .background .thirdpage {
+    min-height: 120vh;
   }
   main .background .fourpage .container .row .col iframe {
     width: 100%;
