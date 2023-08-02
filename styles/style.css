@@ -32,6 +32,12 @@ header .firstheader .image img {
 .secondheader ul li {
   /*看看是否可以改字體顏色*/
 }
+.secondheader ul li .offcanvas {
+  width: 50%;
+}
+.secondheader ul li .offcanvas .offcanvas-body img {
+  width: 100%;
+}
 .secondheader ul li a {
   color: #6d6d6d;
   text-decoration: none;

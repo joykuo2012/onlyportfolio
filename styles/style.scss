@@ -30,6 +30,14 @@ header {
   z-index: 1000;
   ul {
     li {
+      .offcanvas{
+        width: 50%;
+        .offcanvas-body{
+          img{
+            width: 100%;
+          }
+        }
+      }
       a {
         color: #6d6d6d;
         text-decoration: none;
