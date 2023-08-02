@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./img/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*-----------------------------導覽列---------------------------------*/
+nav {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  padding: 10 8%;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100px;
+  width: 80px;
+  margin-left: 50px;
+}
+.nav-links ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 7px 0;
+  position: relative;
+}
+.nav-links li a::after {
+  content: "";
+  background: rgb(255, 175, 2);
+  width: 0;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+.btn {
+  background-color: rgb(255, 175, 2);
+  color: white;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background-color: rgb(255, 212, 118);
+  color: black;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+.btn:hover a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+/*-----------------------------內容物---------------------------------*/
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 5% 100%;
+  display: inline-block;
+}
+.col-1 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 25px;
+}
+.col-1 h1 {
+  font-size: 65px;
+  color: #563c35;
+  font-weight: bold;
+  margin: 100px 70px 0px;
+  text-align: center;
+}
+.col-1 h2 {
+  font-size: 65px;
+  color: #b04a2e;
+  font-weight: bold;
+  margin: 0px 100px 10px;
+  text-align: center;
+}
+/*-------------------------按鈕----------------------------*/
+button {
+  border-radius: 30px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #995a48;
+  color: white;
+  border: 2px solid black;
+  margin: 1% 0 0 25%;
+}
+.button1:hover {
+  background-color: #995a48;
+  border: 2px solid #000000;
+  color: black;
+}
+
+.button1 a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.button1:hover a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.button2 {
+  background-color: #d5a99c;
+  color: black;
+  border: 2px solid black;
+}
+
+.button2:hover {
+  background-color: #d5a99c;
+  border: 2px solid #000000;
+  border-width: 2px;
+  color: white;
+}
+
+.button2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.button2:hover a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition-duration: 0.5s;
+}
+/*-------------------------------圖片---------------------------*/
+.col-2 {
+  display: flex;
+  flex-basis: 40%;
+  position: relative;
+  bottom: 400px;
+  left: -110px;
+}
+.col-2 .duohui1 {
+  width: 400px;
+  position: absolute;
+  top: 60px;
+  left: 700px;
+}
+
+.col-2 .duohui2 {
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+.col-2 .duohui3 {
+  width: 280px;
+  position: absolute;
+  top: 300px;
+  left: 950px;
+}
+
+/*----------------------------貼圖選項-----------------------*/
+.row3 {
+  background-color: rgb(233, 233, 233);
+  border:2px solid black;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 600px;
+}
+.row3 .img1 {
+  width: 155px;
+  height: 150px;
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 99em;
+  margin: 0 20px;
+  float: left;
+  position: relative;
+  top: 10%;
+  left: 15%;
+}
+
+.row3 h3 {
+  position: absolute;
+  left: 240px;
+  top: 185px;
+}
+.row3 p {
+  position: absolute;
+  left: 220px;
+  top: 215px;
+  text-align: center;
+}
+
+/*--------------------貼圖部分---------------------------*/
+.col-3 {
+  background-color: rgb(255, 252, 246);
+  border: 1.5px solid black;
+  border-width: 2px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 860px;
+  left: 1%;
+  width: 90%;
+  height: 150%;
+  margin: 5% 5% 100%;
+  display: inline-block;
+}
+
+.col-3 h1 {
+  position: absolute;
+  top: 65px;
+  left: 600px;
+  margin: 20px;
+}
+
+.col-3 .h4_1 {
+  position: absolute;
+  top: 130px;
+  left: 620px;
+}
+
+.col-3 h4 {
+  position: absolute;
+  top: 150px;
+  left: 620px;
+}
+
+.col-3 .money {
+  position: absolute;
+  top: 195px;
+  color: rgb(255, 149, 0);
+}
+
+.button3 {
+  background-color: #995a48;
+  position: absolute;
+  top: 260px;
+  left: 617px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 15px;
+  transform: 0.5s;
+}
+
+.button3:hover {
+  background-color: #d5a99c;
+}
+
+.button3 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transform: 0.5s;
+}
+
+.button3:hover a {
+  color: black;
+}
+
+.sticker {
+  width: 280px;
+  position: relative;
+  left: 22%;
+  top: 62px;
+}
+
+.stickers {
+  display: inline;
+  width: 120px;
+  overflow: hidden;
+  position: relative;
+  left: 5%;
+  top: 100px;
+  transform:scale(1,1);
+  transition: all 0.5s;
+}
+.stickers:hover{
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 30px;
+  transform: scale(2,2);
+  z-index: 1;
+  
+}
+/*--------------------------聯絡我們--------------------------------*/
+.con {
+  background-color: rgb(255, 223, 159);
+  width: 400px;
+  height: 80px;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  left: 460px;
+  position: absolute;
+  top: 470%;
+}
+
+.row2 {
+  background-color: rgb(255, 223, 159);
+  width: 500px;
+  height: 480px;
+  position: absolute;
+  top: 489%;
+  left: 33.5%;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.form h2 {
+  position: absolute;
+  font-size: 18px;
+  top: 10px;
+  left: 28%;
+}
+
+.name {
+  position: absolute;
+  top: 10%;
+  left: 31.5%;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 200px;
+  height: 30px;
+}
+.email {
+  position: absolute;
+  top: 18%;
+  left: 31.5%;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 200px;
+  height: 30px;
+}
+.tel {
+  position: absolute;
+  top: 26%;
+  left: 31.5%;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 200px;
+  height: 30px;
+}
+textarea {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  height: 200px;
+}
+.submit {
+  background-color: #b04a2e;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 82%;
+  left: 30%;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.submit:hover {
+  color: white;
+}
+.reload {
+  background-color: #dcbfb7;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: 82%;
+  left: 56%;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.reload:hover {
+  color: white;
+}
+/*-------------------------------頁尾---------------------------*/
+footer {
+  background-color: white;
+  position: absolute;
+  bottom: -500%;
+  width: 100%;
+  border: 2px solid black;
+}
+
+/*-------------------------頁面大小調整--------------------------------*/
+@media screen and (max-width: 800px) {
+  nav {
+    font-size: 55%;
+  }
+}

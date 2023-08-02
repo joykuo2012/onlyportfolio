@@ -1,0 +1,68 @@
+.form {
+  width: 400px;
+  height: 430px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 45px;
+  left: 450px;
+  box-shadow: 1px 1px 15px 6px rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 25px 25px;
+}
+
+.lime_img {
+  width: 100px;
+  position: absolute;
+  margin: 20px 150px;
+}
+
+.limep {
+  width: 100px;
+  position: absolute;
+  margin: 100px 150px;
+}
+
+.h6 {
+  text-align: center;
+  position: absolute;
+  margin: 220px 155px;
+  font-weight: lighter;
+}
+
+.h6_2 {
+  text-align: center;
+  position: absolute;
+  margin: 240px 175px;
+  font-size: 17px;
+}
+
+.button {
+  width: 400px;
+  height: 60px;
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  margin: 280px 1.8px;
+  border-radius: 10px;
+  background-color: rgb(61, 185, 61);
+  border: 1px solid rgb(61, 185, 61);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(37, 97, 37);
+  border: 1px solid rgb(37, 97, 37);
+  color: white;
+}
+.link {
+  text-align: center;
+  position: absolute;
+  margin: 330px 145px;
+  font-size: 16px;
+}
+footer {
+  position: absolute;
+  top: 550px;
+  height: 10px;
+}
