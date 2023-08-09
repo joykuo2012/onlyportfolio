@@ -1,0 +1,477 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    h1 {
+      color: rgb(255, 255, 255);
+      padding: 20px 30px;
+      font-weight: 500;
+      a {
+        color: rgb(255, 255, 255);
+      }
+    }
+    #menu-icon {
+      margin-top: 12px;
+      font-size: 3em;
+      color: white;
+      z-index: 1000;
+      cursor: pointer;
+      display: none;
+    }
+    nav {
+      ul {
+        display: flex;
+        padding: 20px 30px;
+        li {
+          font-size: 1.1em;
+          color: rgb(186, 186, 186);
+          margin-left: 30px;
+          letter-spacing: 10px;
+          cursor: pointer;
+          a {
+            color: rgb(255, 255, 255);
+            transition: all 0.3s ease;
+          }
+          a:hover {
+            color: rgb(231, 252, 129);
+          }
+        }
+      }
+    }
+  }
+  main {
+    section.home-page {
+      width: 100%;
+      height: 180vh;
+      .text {
+        position: relative;
+        h1 {
+          position: absolute;
+          right: 250px;
+          color: white;
+          font-size: 6em;
+          font-weight: 500;
+          z-index: 1;
+        }
+      }
+      .bg-img {
+        position: relative;
+        img {
+          position: absolute;
+          top: -130px;
+          width: 100%;
+          height: 150vh;
+          pointer-events: none;
+          z-index: -1;
+        }
+      }
+      .moon {
+        position: relative;
+        img {
+          position: absolute;
+          top: -30px;
+          width: 100%;
+          height: 190vh;
+          z-index: 2;
+        }
+      }
+      .text2 {
+        position: relative;
+        h1 {
+          position: absolute;
+          line-height: 2em;
+          top: 700px;
+          left: -500px;
+          color: white;
+          font-size: 4em;
+          font-weight: 500;
+          z-index: 3;
+        }
+      }
+      .bird {
+        position: relative;
+        img {
+          position: absolute;
+          top: 500px;
+          width: 100%;
+          height: 180vh;
+          z-index: 3;
+        }
+      }
+      svg {
+        position: absolute;
+        right: 50%;
+        bottom: 5px;
+        z-index: 3;
+      }
+    }
+    section.secondPage {
+      background-color: black;
+      position: relative;
+      display: flex;
+      height: 100vh;
+      z-index: 100;
+      top: -200px;
+      img {
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        width: 40%;
+        z-index: 4;
+      }
+      .text3 {
+        h3 {
+          position: absolute;
+          right: 400px;
+          top: 250px;
+          color: white;
+          font-size: 1.5em;
+        }
+        p {
+          position: absolute;
+          right: 240px;
+          top: 300px;
+          line-height: 1.8em;
+          color: white;
+        }
+      }
+    }
+    section.thridPage {
+      position: relative;
+      height: 90vh;
+      img {
+        position: absolute;
+        top: -200px;
+        left: 30%;
+        width: 40%;
+      }
+    }
+
+    section.fourPage {
+      height: 80vh;
+      .content {
+        position: relative;
+        h2 {
+          color: white;
+          text-align: center;
+        }
+        .imgs {
+          display: flex;
+          justify-content: space-around;
+          padding: 30px 10px;
+          .pic {
+            .box {
+              background-color: rgba(255, 255, 255, 0.4);
+              margin-right: 10px;
+              margin-bottom: 20px;
+              img {
+                width: 300px;
+                filter: blur(3px);
+                transition: 0.4s ease-in-out;
+              }
+              img:hover {
+                filter: blur(0);
+              }
+            }
+            h3 {
+              text-align: center;
+              margin-bottom: 10px;
+              color: white;
+            }
+            p {
+              text-align: center;
+              line-height: 1.5em;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    color: white;
+  }
+}
+
+/*  RWD  */
+@media screen and (max-width: 1024px) {
+  body {
+    header {
+      background-color: transparent;
+      #menu-icon {
+        display: block;
+        position: fixed;
+        margin-top: 5px;
+        right: 30px;
+      }
+      nav {
+        .navlist {
+          position: fixed;
+          flex-direction: column;
+          right: -300px;
+          top: 8.5%;
+          font-size: 1.3em;
+          text-align: center;
+          line-height: 3em;
+          letter-spacing: 10px;
+          background-color: rgba(0, 0, 0, 0.2);
+          padding: 30px 50px;
+          a {
+            display: block;
+            margin-left: 0;
+            margin: 7px 0px;
+          }
+        }
+        .navlist.open {
+          right: -10px;
+        }
+      }
+    }
+    main {
+      section.home-page {
+        .text {
+          h1 {
+            right: 180px;
+          }
+        }
+        .moon {
+          height: 100vh;
+        }
+        .text2 {
+          h1 {
+            left: -500px;
+            top: 0px;
+          }
+        }
+        .bird {
+          img {
+            top: -300px;
+            right: -50px;
+            width: 120%;
+          }
+        }
+      }
+      section.secondPage {
+        height: 80vh;
+        .text3 {
+          h3 {
+            right: 300px;
+          }
+          p {
+            right: 140px;
+          }
+        }
+      }
+      section.thridPage {
+        height: 50vh;
+      }
+      section.fourPage {
+        height: 70vh;
+        .content {
+          .imgs {
+            .pic {
+              .box {
+                img {
+                  width: 200px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    main {
+      section.home-page {
+        .text {
+          h1 {
+            right: 100px;
+          }
+        }
+        .bird {
+          img {
+            width: 150%;
+            z-index: 3;
+          }
+        }
+        svg {
+          z-index: 2;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 533px) {
+  body {
+    main {
+      section.home-page {
+        .text {
+          h1 {
+            right: 0px;
+          }
+        }
+        .moon {
+          img {
+            top: 160px;
+            height: 100vh;
+          }
+        }
+        .text2 {
+          h1 {
+            font-size: 3em;
+            top: -200px;
+            left: -300px;
+          }
+        }
+        .bird {
+          img {
+            width: 130%;
+            height: 100vh;
+          }
+        }
+      }
+      section.secondPage {
+        top: -510px;
+        img {
+          width: 80%;
+        }
+        .text3 {
+          h3 {
+            top: 600px;
+            right: 230px;
+          }
+          p {
+            top: 700px;
+            right: 170px;
+            text-align: center;
+          }
+        }
+      }
+
+      section.thridPage {
+        img {
+          width: 80%;
+          left: 10%;
+        }
+      }
+      section.fourPage {
+        height: 150vh;
+        .content {
+          .imgs {
+            flex-direction: column;
+            padding: 100px;
+            .pic {
+              .box {
+                margin-top: 20px;
+                img {
+                  width: 80%;
+                  margin-left: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    footer {
+      margin-top: 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 435px) {
+  body {
+    main {
+      section.home-page {
+        .text {
+          h1 {
+            font-size: 4em;
+            top: 100px;
+          }
+        }
+      }
+      section.secondPage {
+        .text3 {
+          h3 {
+            top: 500px;
+            right: 180px;
+          }
+          p {
+            top: 600px;
+            right: 120px;
+          }
+        }
+      }
+      section.fourPage {
+        height: 130vh;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    header {
+      nav {
+        .navlist {
+          width: 100%;
+          right: -100%;
+        }
+        .navlist.open {
+          right: 0px;
+        }
+      }
+    }
+    main {
+      section.secondPage {
+        .text3 {
+          h3 {
+            right: 120px;
+          }
+          p {
+            right: 60px;
+          }
+        }
+      }
+      section.thridPage {
+        height: 30vh;
+      }
+      section.fourPage {
+        height: 110vh;
+        .content {
+          .imgs {
+            .pic {
+              .box {
+                img {
+                  width: 100%;
+                  margin-left: 0px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

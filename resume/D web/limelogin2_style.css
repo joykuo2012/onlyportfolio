@@ -1,0 +1,117 @@
+.form {
+  width: 400px;
+  height: 430px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 45px;
+  left: 450px;
+  box-shadow: 1px 1px 15px 6px rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 25px 25px;
+}
+
+.lime_img {
+    
+  width: 100px;
+  position: absolute;
+  margin: 20px 150px;
+}
+.email {
+  width: 350px;
+  height: 15px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 20px;
+  background-color: transparent;
+  border-bottom: 1.5px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.password {
+  width: 350px;
+  height: 15px;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 20px;
+  background-color: transparent;
+  border-bottom: 1.5px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.button {
+  width: 400px;
+  height: 60px;
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  margin: 180px 0px;
+  border-radius: 10px;
+  background-color: rgb(61, 185, 61);
+  border: 1px solid rgb(61, 185, 61);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(37, 97, 37);
+  border: 1px solid rgb(37, 97, 37);
+  color: white;
+}
+
+h6 {
+  text-align: center;
+  position: absolute;
+  margin: 240px 120px;
+  font-weight: lighter;
+}
+
+.btn {
+  width: 330px;
+  background-color: rgb(142, 142, 142);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 270px 2px;
+  cursor: pointer;
+}
+.btn {
+  background-color: white;
+  color: black;
+  border: 0.5px solid #a9a9a9;
+}
+.new_color {
+  color: red;
+}
+.link {
+  text-decoration: none;
+  color: rgb(92, 92, 255);
+  text-align: center;
+  position: absolute;
+  top: 410px;
+  left: 153px;
+  font-size: 13px;
+}
+.link:hover {
+  color: rgb(16, 16, 155);
+}
+
+footer {
+  position: absolute;
+  top: 550px;
+  height: 10px;
+}

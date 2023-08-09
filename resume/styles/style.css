@@ -1,0 +1,993 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --text-color: #646464;
+  --light-color: #ade4f4;
+  --dark-color: #333869;
+  --yellow-color: #f0e373;
+}
+
+body {
+  width: 100%;
+}
+body header {
+  position: fixed;
+  display: flex;
+  background-color: #ade4f4;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  z-index: 1000;
+}
+body header img {
+  width: 3%;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+body header nav .navlist {
+  display: flex;
+  margin-right: 100px;
+  margin-top: 12px;
+}
+body header nav .navlist li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 1.1em;
+  letter-spacing: 15px;
+  font-weight: 300;
+  cursor: pointer;
+}
+body header nav .navlist li a {
+  color: var(--dark-color);
+  transition: all 0.4s ease;
+}
+body header nav .navlist li a:hover {
+  color: #98a0e8;
+  font-weight: 500;
+}
+body header #menu-icon {
+  margin-top: 12px;
+  color: var(--dark-color);
+  z-index: 100;
+  cursor: pointer;
+  display: none;
+}
+body .snow {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  width: 10%;
+  height: 60px;
+}
+body main section.home {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+body main section.home .joyimg {
+  position: absolute;
+  width: 25%;
+  left: 300px;
+  top: 200px;
+}
+body main section.home .text {
+  position: absolute;
+  width: 350px;
+  text-align: center;
+  color: var(--text-color);
+  right: 300px;
+  top: 280px;
+  letter-spacing: 7px;
+  line-height: 2em;
+}
+body main section.home .text h1 {
+  color: var(--yellow-color);
+  margin-bottom: 10px;
+}
+body main section.home .text h3 {
+  color: var(--yellow-color);
+  margin-bottom: 10px;
+}
+body main section.about {
+  width: 100%;
+  height: 100vh;
+}
+body main section.about .clouds {
+  position: relative;
+}
+body main section.about .clouds img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+body main section.about .clouds .cloud2 {
+  top: 80px;
+  height: 120vh;
+}
+body main section.about .content {
+  display: flex;
+  position: relative;
+}
+body main section.about .content .circle {
+  display: flex;
+}
+body main section.about .content .circle .text2 {
+  text-align: center;
+  width: 25%;
+  color: var(--text-color);
+  letter-spacing: 3px;
+  line-height: 2.5em;
+  margin-left: 80px;
+  margin-top: 350px;
+  font-size: 1em;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  padding: 60px;
+  box-shadow: -10px 5px 10px rgb(149, 149, 149);
+}
+body main section.about .content h6 {
+  position: absolute;
+  width: 1%;
+  right: 175px;
+  top: 370px;
+  color: white;
+  font-size: 1em;
+  line-height: 40px;
+}
+body main section.about .content .grandpa {
+  position: absolute;
+  right: 140px;
+  top: 570px;
+  background-color: var(--yellow-color);
+  width: 80px;
+  height: 800px;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+body main section.about .content .grandpa img {
+  margin-top: -150px;
+  margin-left: -10px;
+  width: 100px;
+  height: 150px;
+  bottom: 0;
+  transition: all 0.5s ease;
+  z-index: 5;
+}
+body main section.about .content .grandpa a {
+  position: absolute;
+  width: 1%;
+  left: 30px;
+  color: var(--dark-color);
+  line-height: 2em;
+  margin-bottom: 10px;
+  z-index: 0;
+}
+body main section.about .content .grandpa a:hover {
+  color: #2131e3;
+}
+body main section.about .content .grandpa:hover {
+  transform: translateY(-250px);
+}
+body main section.about .content .oneOne {
+  margin-top: 200px;
+}
+body main section.portfolio {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+}
+body main section.portfolio img {
+  position: absolute;
+  top: -100px;
+  width: 100%;
+}
+body main section.portfolio h1 {
+  position: absolute;
+  font-size: 7em;
+  top: 400px;
+  left: 150px;
+  letter-spacing: 50px;
+  color: var(--yellow-color);
+  z-index: 1;
+}
+body main section.portfolio .images {
+  position: absolute;
+  top: 800px;
+  left: 46%;
+}
+body main section.portfolio .images img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transition: all 0.5s ease;
+  border-radius: 100px;
+}
+body main section.portfolio .images img:hover {
+  animation: scale-up-hor-center 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+body main section.portfolio .images p {
+  position: absolute;
+  color: var(--text-color);
+  top: 55px;
+  left: 550px;
+  font-size: 1.5em;
+  z-index: 10;
+}
+body main section.portfolio .img2 {
+  top: 200px;
+}
+body main section.portfolio .img3 {
+  top: 500px;
+}
+body main section.portfolio .img4 {
+  top: 800px;
+}
+body main section.skills {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  top: 300px;
+}
+body main section.skills img {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+body main section.skills .icon {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  width: 50%;
+}
+body main section.skills .icon :nth-child(1) {
+  left: 10%;
+  width: 50%;
+}
+body main section.skills .icon :nth-child(2) {
+  left: 75%;
+  top: 250px;
+  width: 50%;
+}
+body main section.skills .icon :nth-child(3) {
+  left: 40%;
+  top: 600px;
+  width: 30%;
+}
+body main section.skills .icon :nth-child(4) {
+  right: -60%;
+  top: 550px;
+  width: 30%;
+}
+body main .ghost img {
+  width: 20%;
+  animation: infinite-move 7s ease-in-out infinite;
+}
+body main section.contact {
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  top: 100px;
+}
+body main section.contact img {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+body main section.contact h1 {
+  position: absolute;
+  font-size: 7em;
+  top: 0px;
+  left: 100px;
+  letter-spacing: 50px;
+  color: var(--yellow-color);
+}
+body main section.contact h6 {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  letter-spacing: 1em;
+  color: var(--text-color);
+  font-size: 1.5em;
+  font-weight: 400;
+}
+body main section.contact p {
+  position: absolute;
+  color: var(--text-color);
+  left: 35%;
+  top: 490px;
+  font-size: 1.2em;
+  letter-spacing: 0.5em;
+}
+body main section.contact #btn {
+  position: absolute;
+  top: 490px;
+  right: 450px;
+  background-color: var(--dark-color);
+  color: white;
+  letter-spacing: 10px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+body main section.contact #btn:hover {
+  background-color: #454c91;
+}
+body footer {
+  background-color: var(--dark-color);
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  margin-top: 100px;
+}
+body footer .svgs {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  top: 100px;
+  right: 35%;
+  cursor: pointer;
+}
+body footer .svgs svg {
+  margin-right: 50px;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-5-8 14:54:47
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+@keyframes scale-up-hor-center {
+  0% {
+    transform: scaleX(3);
+    border-radius: 10%;
+    width: 100px;
+    height: 250px;
+  }
+  100% {
+    transform: scaleX(9);
+    border-radius: 10%;
+    width: 100px;
+    height: 250px;
+  }
+}
+@keyframes infinite-move {
+  0% {
+    transform: translateX(50%); /* 照片從左邊進入畫面 */
+  }
+  50% {
+    transform: translateX(350%); /* 照片位於畫面中央 */
+  }
+  53% {
+    transform: translateX(350%) scaleX(-1);
+  }
+  95% {
+    transform: translateX(50%) scaleX(-1);
+  }
+  100% {
+    transform: translateX(50%); /* 照片從右邊離開畫面 */
+  }
+}
+/* -- -- RWD -- -- */
+@media screen and (max-width: 1265px) {
+  body main section.home {
+    height: 80vh;
+  }
+  body main section.home .text {
+    top: 250px;
+    right: 150px;
+  }
+  body main section.about .content .circle .text2 {
+    margin-right: 30px;
+    margin-top: 300px;
+    margin-left: 10px;
+    width: 25%;
+  }
+  body main section.about .content h6 {
+    right: 140px;
+  }
+  body main section.about .content .grandpa {
+    right: 100px;
+  }
+  body main section.about .content .grandpa img {
+    margin-left: -15px;
+  }
+  body main section.about .content .grandpa a {
+    top: 20px;
+  }
+  body main section.portfolio img {
+    height: 250vh;
+  }
+  body main section.portfolio h1 {
+    top: 300px;
+  }
+  body main section.portfolio .images {
+    top: 700px;
+  }
+  body main section.skills {
+    top: 100px;
+    height: 160vh;
+  }
+  body main section.contact p {
+    top: 48%;
+  }
+  body main section.contact #btn {
+    top: 430px;
+    right: 290px;
+  }
+  body footer .svgs {
+    right: 30%;
+  }
+}
+@media screen and (max-width: 1210px) {
+  body main section.home .joyimg {
+    left: 250px;
+  }
+  body main section.home .text {
+    top: 240px;
+    right: 150px;
+  }
+  body main section.about .content .text2 {
+    font-size: 1em;
+    top: 300px;
+  }
+  body main section.about .content h6 {
+    right: 120px;
+    top: 500px;
+  }
+  body main section.about .content .grandpa {
+    right: 80px;
+    top: 700px;
+  }
+  body main section.about .content .grandpa img {
+    margin-left: -14px;
+  }
+  body main section.about .content .grandpa a {
+    top: 20px;
+  }
+  body main section.contact p {
+    top: 420px;
+    left: 30%;
+  }
+  body main section.contact #btn {
+    padding: 10px 15px;
+    top: 415px;
+    right: 300px;
+  }
+  body footer .svgs {
+    right: 30%;
+  }
+}
+@media screen and (max-width: 1046px) {
+  body main section.home .text {
+    right: 100px;
+  }
+  body main section.about .content .text2 {
+    font-size: 0.9em;
+    top: 350px;
+    width: 380px;
+  }
+  body main section.contact p {
+    top: 390px;
+    left: 30%;
+    font-size: 1em;
+  }
+  body main section.contact #btn {
+    padding: 10px 15px;
+    top: 42%;
+    right: 25%;
+  }
+}
+@media screen and (max-width: 976px) {
+  body main section.about .content .cirlce .text2 {
+    left: 200px;
+  }
+  body main section.about .content h6 {
+    right: 90px;
+  }
+  body main section.about .content .grandpa {
+    right: 50px;
+  }
+}
+@media screen and (max-width: 947px) {
+  body main section.home .joyimg {
+    width: 30%;
+    left: 150px;
+  }
+  body main section.home .text {
+    right: 50px;
+  }
+  body main section.portfolio h1 {
+    font-size: 6em;
+    top: 350px;
+  }
+  body main section.skills {
+    height: 150vh;
+  }
+  body main section.skills .icon {
+    width: 60%;
+  }
+  body main section.skills .icon :nth-child(2) {
+    left: 60%;
+    top: 200px;
+  }
+  body main section.skills .icon :nth-child(3) {
+    left: 30%;
+    top: 550px;
+  }
+  body main section.skills .icon :nth-child(4) {
+    right: -40%;
+    top: 480px;
+  }
+  body main section.contact {
+    height: 80vh;
+  }
+  body main section.contact h1 {
+    font-size: 6em;
+  }
+  body main section.contact h6 {
+    left: 350px;
+    top: 150px;
+  }
+  body main section.contact p {
+    top: 370px;
+    left: 200px;
+  }
+  body main section.contact #btn {
+    top: 360px;
+    right: 180px;
+  }
+  body footer .svgs {
+    right: 25%;
+  }
+  @keyframes scale-up-hor-center {
+    0% {
+      transform: scaleX(3);
+      border-radius: 0;
+      width: 100px;
+      height: 204px;
+    }
+    100% {
+      transform: scaleX(8);
+      border-radius: 0;
+      width: 100px;
+      height: 204px;
+    }
+  }
+}
+@media screen and (max-width: 825px) {
+  body main section.home .joyimg {
+    left: 100px;
+  }
+  body main section.home .text {
+    font-size: 0.8em;
+  }
+  body main section.about .content .circle .text2 {
+    width: 30%;
+    font-size: 0.5em;
+    left: 150px;
+  }
+  body main section.portfolio .images {
+    left: 40%;
+  }
+  body main section.portfolio .images img {
+    width: 150px;
+    height: 150px;
+  }
+  body main section.contact h6 {
+    font-size: 1.3em;
+  }
+  body main section.contact p {
+    top: 350px;
+    font-size: 0.7em;
+  }
+  body main section.contact #btn {
+    font-size: 0.7em;
+    padding: 5px 10px;
+    right: 28%;
+    top: 350px;
+  }
+  @keyframes scale-up-hor-center {
+    0% {
+      transform: scaleX(3);
+      border-radius: 0;
+      width: 100px;
+      height: 180px;
+    }
+    100% {
+      transform: scaleX(6);
+      border-radius: 0;
+      width: 100px;
+      height: 180px;
+    }
+  }
+}
+@media screen and (max-width: 764px) {
+  body header {
+    position: relative;
+  }
+  body header #menu-icon {
+    display: block;
+    position: fixed;
+    margin-top: 5px;
+    right: 30px;
+    font-size: 35px;
+  }
+  body header nav .navlist {
+    position: fixed;
+    flex-direction: column;
+    margin-right: 10px;
+    top: 4%;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 3em;
+    letter-spacing: 10px;
+    background-color: rgba(173, 228, 244, 0.5);
+    padding: 30px 50px;
+  }
+  body header nav .navlist a {
+    display: block;
+    margin-left: 0;
+    margin: 7px 0px;
+  }
+  body header nav .navlist.open {
+    right: -10px;
+  }
+  body main section.home .text {
+    right: 10px;
+  }
+  body main section.about .content .circle .text2 {
+    width: 30%;
+    font-size: 0.5em;
+    padding: 40px;
+  }
+  body main section.skills img {
+    top: 100px;
+  }
+  body main section.skills .icon :nth-child(2) {
+    left: 65%;
+    top: 250px;
+  }
+  body main section.skills .icon :nth-child(3) {
+    left: 30%;
+    width: 40%;
+  }
+  body main section.skills .icon :nth-child(4) {
+    width: 40%;
+  }
+  body main section.contact h1 {
+    font-size: 5em;
+  }
+  body main section.contact h6 {
+    left: 160px;
+  }
+  body main section.contact p {
+    top: 340px;
+  }
+  body main section.contact #btn {
+    top: 340px;
+    right: 180px;
+  }
+  body footer .svgs {
+    right: 20%;
+  }
+}
+@media screen and (max-width: 689px) {
+  body header {
+    position: relative;
+  }
+  body header #menu-icon {
+    display: block;
+    position: fixed;
+    margin-top: 5px;
+    right: 30px;
+    font-size: 35px;
+  }
+  body header nav .navlist {
+    position: fixed;
+    flex-direction: column;
+    margin-right: 10px;
+    top: 4%;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 3em;
+    letter-spacing: 10px;
+    background-color: rgba(173, 228, 244, 0.5);
+    padding: 30px 50px;
+  }
+  body header nav .navlist a {
+    display: block;
+    margin-left: 0;
+    margin: 7px 0px;
+  }
+  body header nav .navlist.open {
+    right: -10px;
+  }
+  body main section.home .joyimg {
+    width: 40%;
+    top: 10%;
+    left: 30%;
+  }
+  body main section.home .text {
+    top: 58%;
+    right: 15%;
+  }
+  body main section.about .content .circle .text2 {
+    width: 30%;
+    font-size: 0.5em;
+    padding: 30px;
+  }
+  body main section.contact {
+    background-color: var(--dark-color);
+    height: 60vh;
+  }
+  body main section.contact h1 {
+    letter-spacing: 30px;
+  }
+  body main section.contact h6 {
+    left: 150px;
+    color: white;
+  }
+  body main section.contact p {
+    top: 320px;
+    left: 200px;
+    color: white;
+  }
+  body main section.contact #btn {
+    top: 380px;
+    right: 300px;
+    background-color: var(--yellow-color);
+    color: var(--dark-color);
+  }
+  body footer {
+    background-color: var(--yellow-color);
+  }
+}
+@media screen and (max-width: 590px) {
+  body main section.portfolio h1 {
+    font-size: 5em;
+    left: 120px;
+  }
+  body main section.skills {
+    height: 140vh;
+  }
+  body main section.contact {
+    background-color: var(--dark-color);
+    height: 60vh;
+  }
+  body main section.contact img {
+    top: 150px;
+  }
+  body main section.contact h1 {
+    font-size: 4em;
+    letter-spacing: 15px;
+    left: 130px;
+  }
+  body main section.contact h6 {
+    font-size: 0.8em;
+    top: 100px;
+    left: 180px;
+    color: white;
+  }
+  body main section.contact p {
+    top: 250px;
+    left: 170px;
+    color: white;
+  }
+  body main section.contact #btn {
+    top: 300px;
+    right: 45%;
+    background-color: var(--yellow-color);
+    color: var(--dark-color);
+  }
+  body footer {
+    background-color: var(--yellow-color);
+  }
+  @keyframes scale-up-hor-center {
+    0% {
+      transform: scaleX(3);
+      border-radius: 0;
+      width: 100px;
+      height: 180px;
+    }
+    100% {
+      transform: scaleX(5);
+      border-radius: 0;
+      width: 100px;
+      height: 180px;
+    }
+  }
+}
+@media screen and (max-width: 472px) {
+  body main section.contact {
+    height: 50vh;
+  }
+  body main section.contact h1 {
+    left: 50px;
+  }
+  body main section.contact h6 {
+    left: 100px;
+  }
+  body main section.contact p {
+    left: 120px;
+    top: 230px;
+  }
+}
+@media screen and (max-width: 414px) {
+  body {
+    width: 103%;
+  }
+  body header img {
+    width: 10%;
+    margin-left: 30px;
+  }
+  body header #menu-icon {
+    display: block;
+    position: fixed;
+    margin-top: 5px;
+    right: 50%;
+    font-size: 35px;
+  }
+  body header nav .navlist {
+    position: fixed;
+    flex-direction: column;
+    margin-right: 11px;
+    width: 100%;
+    top: 3%;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 3em;
+    letter-spacing: 10px;
+    padding: 30px 50px;
+  }
+  body header nav .navlist a {
+    display: block;
+    margin-left: 0;
+  }
+  body header nav .navlist.open {
+    right: 0px;
+  }
+  body .snow {
+    width: 18%;
+  }
+  body main section.home {
+    height: 60vh;
+  }
+  body main section.home .text {
+    right: 40px;
+  }
+  body main section.about {
+    height: 70vh;
+  }
+  body main section.about .clouds .cloud1 {
+    display: none;
+  }
+  body main section.about .content .circle {
+    flex-direction: column;
+  }
+  body main section.about .content .circle .text2 {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 45%;
+    padding: 30px;
+    font-size: 0.5em;
+  }
+  body main section.about .content h6 {
+    right: 100px;
+    top: 350px;
+  }
+  body main section.about .content .grandpa {
+    top: 550px;
+  }
+  body main section.portfolio {
+    height: 150vh;
+  }
+  body main section.portfolio img {
+    height: 180vh;
+  }
+  body main section.portfolio h1 {
+    font-size: 3em;
+    left: 80px;
+    top: 130px;
+  }
+  body main section.portfolio .images {
+    top: 400px;
+    left: 30px;
+  }
+  body main section.portfolio .images img {
+    width: 350px;
+    height: 150px;
+  }
+  body main section.skills {
+    height: 150vh;
+  }
+  body main section.skills img {
+    width: 60%;
+    top: -30px;
+  }
+  body main section.skills .icon {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+  }
+  body main section.skills .icon :nth-child(1) {
+    left: 20%;
+  }
+  body main section.skills .icon :nth-child(2) {
+    left: 20%;
+    top: 280px;
+  }
+  body main section.skills .icon :nth-child(3) {
+    left: 20%;
+  }
+  body main section.skills .icon :nth-child(4) {
+    left: 20%;
+    top: 800px;
+  }
+  body main section.contact {
+    background-color: var(--dark-color);
+    height: 45vh;
+  }
+  body main section.contact img {
+    top: 150px;
+  }
+  body main section.contact h1 {
+    font-size: 3em;
+    letter-spacing: 15px;
+    top: 30px;
+    left: 80px;
+  }
+  body main section.contact h6 {
+    color: white;
+    font-size: 0.8em;
+    top: 100px;
+    left: 90px;
+  }
+  body main section.contact p {
+    color: white;
+    top: 220px;
+    left: 90px;
+  }
+  body main section.contact #btn {
+    background-color: var(--yellow-color);
+    color: var(--dark-color);
+    top: 250px;
+  }
+  body footer {
+    background-color: var(--yellow-color);
+    height: 20vh;
+  }
+  body footer .svgs {
+    right: 50px;
+    top: 60px;
+  }
+  body footer .svgs svg {
+    margin-right: 20px;
+  }
+  @keyframes scale-up-hor-center {
+    0% {
+      transform: scaleX(5);
+      border-radius: 0;
+      width: 100px;
+      height: 180px;
+    }
+    100% {
+      transform: scaleX(3);
+      border-radius: 0;
+      width: 100px;
+      height: 180px;
+    }
+  }
+}/*# sourceMappingURL=style.css.map */
