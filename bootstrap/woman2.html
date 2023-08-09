@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fastyle | 女士服裝</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./bootstrapstyle.css" />
+    <link rel="stylesheet" href="./woman.css" />
+  </head>
+  <body>
+    <header>
+      <!-- hamburger navbar with logo and about us-->
+      <div class="hamNavbar">
+        <nav class="navbar fixed-top">
+          <div class="container-fluid">
+            <div class="d-grid gap-2">
+              <button class="btn btn-secondary" type="button">
+                <a href="#">關於<br />我們</a>
+              </button>
+            </div>
+            <a class="navbar-brand" href="./bootstrapstyle.html">
+              <img src="./pic/fastyle.png" alt="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      全部
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="./woman.html"
+                          >女士服裝</a
+                        >
+                      </li>
+                      <li><a class="dropdown-item" href="#">男士服裝</a></li>
+                      <li><a class="dropdown-item" href="#">兒童服裝</a></li>
+                      <li><a class="dropdown-item" href="#">飾品</a></li>
+                      <li><a class="dropdown-item" href="#">其它</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      女士
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">上衣</a></li>
+                      <li><a class="dropdown-item" href="#">褲子</a></li>
+                      <li><a class="dropdown-item" href="#">裙子</a></li>
+                      <li><a class="dropdown-item" href="#">洋裝</a></li>
+                      <li><a class="dropdown-item" href="#">內衣褲</a></li>
+                      <li><a class="dropdown-item" href="#">睡衣</a></li>
+                      <li><a class="dropdown-item" href="#">外套</a></li>
+                      <li><a class="dropdown-item" href="#">SET</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      男士
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">上衣</a></li>
+                      <li><a class="dropdown-item" href="#">褲子</a></li>
+                      <li><a class="dropdown-item" href="#">內衣褲</a></li>
+                      <li><a class="dropdown-item" href="#">睡衣</a></li>
+                      <li><a class="dropdown-item" href="#">外套</a></li>
+                      <li><a class="dropdown-item" href="#">SET</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      童裝
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">男童裝</a></li>
+                      <li><a class="dropdown-item" href="#">女童裝</a></li>
+                      <li><a class="dropdown-item" href="#">上衣</a></li>
+                      <li><a class="dropdown-item" href="#">褲子</a></li>
+                      <li><a class="dropdown-item" href="#">洋裝</a></li>
+                      <li><a class="dropdown-item" href="#">睡衣</a></li>
+                      <li><a class="dropdown-item" href="#">外套</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      飾品
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">鞋子</a></li>
+                      <li><a class="dropdown-item" href="#">襪子</a></li>
+                      <li><a class="dropdown-item" href="#">包包</a></li>
+                      <li><a class="dropdown-item" href="#">飾品</a></li>
+                      <li><a class="dropdown-item" href="#">帽子</a></li>
+                      <li><a class="dropdown-item" href="#">眼鏡</a></li>
+                      <li><a class="dropdown-item" href="#">手錶</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      其他
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">泳衣</a></li>
+                      <li><a class="dropdown-item" href="#">工作服</a></li>
+                      <li><a class="dropdown-item" href="#">當季服裝</a></li>
+                      <li><a class="dropdown-item" href="#">過季服裝</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <hr />
+                <li class="nav-item navbottom">
+                  <a class="nav-link bottomlink" href="#">關於我們</a>
+                </li>
+                <li class="nav-item navbottom">
+                  <a class="nav-link bottomlink" href="#">運費政策</a>
+                </li>
+                <li class="nav-item navbottom">
+                  <a class="nav-link bottomlink" href="#">退費政策</a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- top navbar -->
+      <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+          <a class="nav-link" href="./bootstrapstyle.html">全部</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./woman.html">女士</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">男士</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">童裝</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">飾品</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">其它</a>
+        </li>
+      </ul>
+      <!-- marquee -->
+      <div class="alert alert-dark" role="alert">
+        <marquee
+          >2023夏季新品即將上架 | 和fastyle一起爽夏天吧！|
+          <a href="#">新會員10%折扣券</a> |
+          <a href="#">滿$1000up免運費</a></marquee
+        >
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary secondbtn"><svg width="43" height="41" viewBox="0 0 43 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 14.5919L21.6596 2L41.3191 14.5919" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M36.9507 22.6049V37.2572C36.9507 38.0159 36.364 38.6309 35.6401 38.6309H7.67978C6.95594 38.6309 6.36914 38.0159 6.36914 37.2572V22.6049" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          </button>
+        <button type="button" class="btn btn-secondary secondbtn"><svg width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.1689 25.9607L2.27526 34.0167" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M37.8506 15.6031C37.8506 23.2303 31.0246 29.4133 22.6043 29.4133C18.3869 29.4133 14.5692 27.8622 11.8091 25.3554C9.05843 22.8574 7.35795 19.4101 7.35795 15.6031C7.35795 7.9759 14.184 1.79285 22.6043 1.79285C31.0246 1.79285 37.8506 7.9759 37.8506 15.6031Z" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          </button>
+        <button type="button" class="btn btn-secondary secondbtn"><svg width="31" height="36" viewBox="0 0 31 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.29785 34.1233V32.1091C2.29785 24.3223 8.37535 18.0099 15.8723 18.0099C23.3693 18.0099 29.4468 24.3223 29.4468 32.1091V34.1233" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M15.8731 18.0099C20.157 18.0099 23.6299 14.4027 23.6299 9.95317C23.6299 5.50358 20.157 1.89648 15.8731 1.89648C11.5891 1.89648 8.11621 5.50358 8.11621 9.95317C8.11621 14.4027 11.5891 18.0099 15.8731 18.0099Z" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          </button>
+        <button type="button" class="btn btn-secondary secondbtn"><svg width="37" height="32" viewBox="0 0 37 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M34.597 10.9498C34.597 13.3927 33.6242 15.7391 31.8869 17.4748C27.888 21.4715 24.0093 25.6391 19.861 29.491C18.9101 30.3611 17.4018 30.3293 16.4919 29.4199L4.5404 17.4748C0.927939 13.8642 0.927939 8.03531 4.5404 4.42474C8.18837 0.7787 14.1313 0.7787 17.7792 4.42474L18.2137 4.85891L18.6479 4.425C20.3969 2.67595 22.779 1.68945 25.2674 1.68945C27.7558 1.68945 30.1377 2.67585 31.8869 4.42474C33.6244 6.1606 34.597 8.5069 34.597 10.9498Z" stroke="#5E5E5E" stroke-width="3" stroke-linejoin="round"/>
+          </svg>
+          </button>
+        <button type="button" class="btn btn-secondary secondbtn"><svg width="39" height="40" viewBox="0 0 39 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32.6701 38.0196C34.1049 38.0196 35.268 36.8101 35.268 35.3182C35.268 33.8262 34.1049 32.6167 32.6701 32.6167C31.2354 32.6167 30.0723 33.8262 30.0723 35.3182C30.0723 36.8101 31.2354 38.0196 32.6701 38.0196Z" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M15.3518 38.0196C16.7865 38.0196 17.9497 36.8101 17.9497 35.3182C17.9497 33.8262 16.7865 32.6167 15.3518 32.6167C13.917 32.6167 12.7539 33.8262 12.7539 35.3182C12.7539 36.8101 13.917 38.0196 15.3518 38.0196Z" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7.55805 5.60197H37.0006L33.5368 25.4128H11.0219L7.55805 5.60197ZM7.55805 5.60197C7.26939 4.4013 5.82613 2 2.3623 2" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M33.537 25.4128H11.0221H7.95798C4.8677 25.4128 3.22852 26.8198 3.22852 29.0148C3.22852 31.2098 4.8677 32.6168 7.95798 32.6168H32.6711" stroke="#5E5E5E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="container text-center">
+        <div class="row row-cols-2">
+          <div class="col">
+            <div class="card womancard" style="width: 18rem">
+              <img src="./pic/woman/7.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">碎花洋裝</h6>
+                <p class="card-text">NT$2500</p>
+                <a href="#" class="btn btn-light">GO</a>
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btn-check"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light1" for="btn-check"
+                  ><svg
+                    width="20"
+                    height="18"
+                    viewBox="0 0 20 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 6.21086C19 7.58551 18.4656 8.90587 17.5112 9.88258C15.3144 12.1316 13.1837 14.4767 10.9048 16.6442C10.3824 17.1338 9.55378 17.1159 9.05392 16.6042L2.48838 9.88258C0.503873 7.85085 0.503873 4.57087 2.48838 2.53917C4.49239 0.487511 7.75714 0.487511 9.76114 2.53917L9.99982 2.78349L10.2383 2.53932C11.1992 1.55511 12.5078 1 13.8748 1C15.2418 1 16.5503 1.55506 17.5112 2.53917C18.4657 3.51596 19 4.83624 19 6.21086Z"
+                      stroke="black"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card womancard" style="width: 18rem">
+              <img src="./pic/woman/8.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">咖啡長版外套</h6>
+                <p class="card-text">NT$3400</p>
+                <a href="#" class="btn btn-light">GO </a>
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btn-check"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light1" for="btn-check"
+                  ><svg
+                    width="20"
+                    height="18"
+                    viewBox="0 0 20 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 6.21086C19 7.58551 18.4656 8.90587 17.5112 9.88258C15.3144 12.1316 13.1837 14.4767 10.9048 16.6442C10.3824 17.1338 9.55378 17.1159 9.05392 16.6042L2.48838 9.88258C0.503873 7.85085 0.503873 4.57087 2.48838 2.53917C4.49239 0.487511 7.75714 0.487511 9.76114 2.53917L9.99982 2.78349L10.2383 2.53932C11.1992 1.55511 12.5078 1 13.8748 1C15.2418 1 16.5503 1.55506 17.5112 2.53917C18.4657 3.51596 19 4.83624 19 6.21086Z"
+                      stroke="black"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card womancard" style="width: 18rem">
+              <img src="./pic/woman/9.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">黑性感洋裝</h6>
+                <p class="card-text">NT$2500</p>
+                <a href="#" class="btn btn-light">GO </a>
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btn-check"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light1" for="btn-check"
+                  ><svg
+                    width="20"
+                    height="18"
+                    viewBox="0 0 20 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 6.21086C19 7.58551 18.4656 8.90587 17.5112 9.88258C15.3144 12.1316 13.1837 14.4767 10.9048 16.6442C10.3824 17.1338 9.55378 17.1159 9.05392 16.6042L2.48838 9.88258C0.503873 7.85085 0.503873 4.57087 2.48838 2.53917C4.49239 0.487511 7.75714 0.487511 9.76114 2.53917L9.99982 2.78349L10.2383 2.53932C11.1992 1.55511 12.5078 1 13.8748 1C15.2418 1 16.5503 1.55506 17.5112 2.53917C18.4657 3.51596 19 4.83624 19 6.21086Z"
+                      stroke="black"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card womancard" style="width: 18rem">
+              <img src="./pic/woman/10.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">黑內褲</h6>
+                <p class="card-text">NT$550</p>
+                <a href="#" class="btn btn-light">GO </a>
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btn-check"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light1" for="btn-check"
+                  ><svg
+                    width="20"
+                    height="18"
+                    viewBox="0 0 20 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 6.21086C19 7.58551 18.4656 8.90587 17.5112 9.88258C15.3144 12.1316 13.1837 14.4767 10.9048 16.6442C10.3824 17.1338 9.55378 17.1159 9.05392 16.6042L2.48838 9.88258C0.503873 7.85085 0.503873 4.57087 2.48838 2.53917C4.49239 0.487511 7.75714 0.487511 9.76114 2.53917L9.99982 2.78349L10.2383 2.53932C11.1992 1.55511 12.5078 1 13.8748 1C15.2418 1 16.5503 1.55506 17.5112 2.53917C18.4657 3.51596 19 4.83624 19 6.21086Z"
+                      stroke="black"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card womancard" style="width: 18rem">
+              <img src="./pic/woman/11.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">白條紋洋裝</h6>
+                <p class="card-text">NT$2400</p>
+                <a href="#" class="btn btn-light">GO </a>
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btn-check"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light1" for="btn-check"
+                  ><svg
+                    width="20"
+                    height="18"
+                    viewBox="0 0 20 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 6.21086C19 7.58551 18.4656 8.90587 17.5112 9.88258C15.3144 12.1316 13.1837 14.4767 10.9048 16.6442C10.3824 17.1338 9.55378 17.1159 9.05392 16.6042L2.48838 9.88258C0.503873 7.85085 0.503873 4.57087 2.48838 2.53917C4.49239 0.487511 7.75714 0.487511 9.76114 2.53917L9.99982 2.78349L10.2383 2.53932C11.1992 1.55511 12.5078 1 13.8748 1C15.2418 1 16.5503 1.55506 17.5112 2.53917C18.4657 3.51596 19 4.83624 19 6.21086Z"
+                      stroke="black"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card womancard" style="width: 18rem">
+              <img src="./pic/woman/12.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h6 class="card-title">黑灰撞色T</h6>
+                <p class="card-text">NT$1300</p>
+                <a href="#" class="btn btn-light">GO </a>
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="btn-check"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light1" for="btn-check"
+                  ><svg
+                    width="20"
+                    height="18"
+                    viewBox="0 0 20 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 6.21086C19 7.58551 18.4656 8.90587 17.5112 9.88258C15.3144 12.1316 13.1837 14.4767 10.9048 16.6442C10.3824 17.1338 9.55378 17.1159 9.05392 16.6042L2.48838 9.88258C0.503873 7.85085 0.503873 4.57087 2.48838 2.53917C4.49239 0.487511 7.75714 0.487511 9.76114 2.53917L9.99982 2.78349L10.2383 2.53932C11.1992 1.55511 12.5078 1 13.8748 1C15.2418 1 16.5503 1.55506 17.5112 2.53917C18.4657 3.51596 19 4.83624 19 6.21086Z"
+                      stroke="black"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--pages area-->
+      <nav aria-label="pages-area">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link"><</a>
+          </li>
+          <li class="page-item"><a class="page-link" aria-current="page" href="./woman.html">1</a></li>
+          <li class="page-item" >
+            <a class="page-link active" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">></a>
+          </li>
+        </ul>
+      </nav>
+      
+      <!-- other products -->
+      <div class="other">
+        <h3>其他商品</h3>
+        <div class="container text-center othercon">
+          <div class="row row-cols-2">
+            <div class="col"><a href="#" class="otherimg"><img class="otherimg" src="./pic/woman/13.jpg" alt=""></a></div>
+            <div class="col"><a href="#" class="otherimg"><img class="otherimg" src="./pic/woman/14.jpg" alt=""></a></div>
+            <div class="col"><a href="#" class="otherimg"><img class="otherimg" src="./pic/woman/15.jpg" alt=""></a></div>
+            <div class="col"><a href="#" class="otherimg"><img class="otherimg" src="./pic/woman/16.jpg" alt=""></a></div>
+            <div class="col"><a href="#" class="otherimg"><img class="otherimg" src="./pic/woman/17.jpg" alt=""></a></div>
+            <div class="col"><a href="#" class="otherimg"><img class="otherimg" src="./pic/woman/18.jpg" alt=""></a></div>
+            <div class="col"><a href="#" class="otherimg"><img class="otherimg" src="./pic/woman/19.jpg" alt=""></a></div>
+            <div class="col"><a href="#" class="otherimg"><img class="otherimg" src="./pic/woman/20.jpg" alt=""></a></div>
+          </div>
+          <button class="btn btn-secondary secondarybtn" type="button">
+            <a href="#">查看更多</a>
+          </button>
+        </div>
+    </main>
+
+    <footer>
+      <div class="container text-center footerRow">
+        <div class="row row-cols-4">
+          <div class="col">
+            全部
+            <hr />
+            <a href="./woman.html">女士服裝</a>
+            <a href="">男士服裝</a>
+            <a href="">兒童服裝</a>
+            <a href="">飾品</a>
+            <a href="">其它</a>
+          </div>
+          <div class="col">
+            女士
+            <hr />
+            <a href="">上衣</a>
+            <a href="">褲子</a>
+            <a href="">裙子</a>
+            <a href="">洋裝</a>
+            <a href="">內衣褲</a>
+            <a href="">睡衣</a>
+            <a href="">外套</a>
+            <a href="">SET</a>
+          </div>
+          <div class="col">
+            男士
+            <hr />
+            <a href="">上衣</a>
+            <a href="">褲子</a>
+            <a href="">內衣褲</a>
+            <a href="">睡衣</a>
+            <a href="">外套</a>
+            <a href="">SET</a>
+          </div>
+          <div class="col">
+            童裝
+            <hr />
+            <a href="">男童裝</a>
+            <a href="">女童裝</a>
+            <a href="">上衣</a>
+            <a href="">褲子</a>
+            <a href="">洋裝</a>
+            <a href="">睡衣</a>
+            <a href="">外套</a>
+          </div>
+          <div class="col">
+            飾品
+            <hr />
+            <a href="">鞋子</a>
+            <a href="">襪子</a>
+            <a href="">包包</a>
+            <a href="">飾品</a>
+            <a href="">帽子</a>
+            <a href="">眼鏡</a>
+            <a href="">手錶</a>
+          </div>
+          <div class="col">
+            其他
+            <hr />
+            <a href="">泳衣</a>
+            <a href="">工作服</a>
+            <a href="">當季服裝</a>
+            <a href="">過季服裝</a>
+          </div>
+          <div class="col">
+            服務｜政策
+            <hr />
+            <a href="">問與答</a>
+            <a href="">訊息公告</a>
+            <a href="">服務條款</a>
+            <a href="">退貨政策</a>
+            <a href="">會員制度</a>
+          </div>
+          <div class="col">
+            認識fastyle
+            <hr />
+            <a href="">關於我們</a>
+            <a href="">媒體報導</a>
+            <a href="">工作機會</a>
+          </div>
+        </div>
+        <div class="row row-cols-auto">
+          <div class="col box"><a href="#">APP下載</a></div>
+          <div class="col qr">
+            <img src="./pic/230529171414 1.png" alt="qr code" />
+          </div>
+          <div class="col mediaicon">
+            <svg
+              width="35"
+              height="32"
+              viewBox="0 0 46 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M27.4974 15.8274L19.7686 20.0042V11.6506L27.4974 15.8274Z"
+                fill="black"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 17.3053V14.35C1 8.30341 1 5.28013 2.99953 3.33486C4.99909 1.38959 8.14708 1.30538 14.443 1.13698C17.4265 1.05718 20.474 1 23.0823 1C25.6907 1 28.7383 1.05718 31.7216 1.13698C38.0175 1.30538 41.1656 1.38959 43.1651 3.33486C45.1647 5.28013 45.1647 8.30341 45.1647 14.35V17.3053C45.1647 23.3518 45.1647 26.3752 43.1651 28.3203C41.1656 30.2656 38.0177 30.3498 31.7218 30.5183C28.7383 30.5981 25.6907 30.6553 23.0823 30.6553C20.474 30.6553 17.4263 30.5981 14.4428 30.5183C8.14697 30.3498 4.99905 30.2656 2.99951 28.3203C1 26.3752 1 23.3518 1 17.3053Z"
+                stroke="black"
+              />
+            </svg>
+          </div>
+          <div class="col mediaicon">
+            <svg
+              width="35"
+              height="44"
+              viewBox="0 0 46 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.0068 30.9971C28.427 30.9971 32.8211 26.8414 32.8211 21.7153C32.8211 16.5892 28.427 12.4336 23.0068 12.4336C17.5864 12.4336 13.1924 16.5892 13.1924 21.7153C13.1924 26.8414 17.5864 30.9971 23.0068 30.9971Z"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M0.923828 30.9969L0.923828 12.4335C0.923828 6.02577 6.41639 0.831299 13.1918 0.831299L32.8205 0.831299C39.5959 0.831299 45.0885 6.02577 45.0885 12.4335V30.9969C45.0885 37.4046 39.5959 42.5991 32.8205 42.5991H13.1918C6.41639 42.5991 0.923828 37.4046 0.923828 30.9969Z"
+                stroke="black"
+              />
+              <path
+                d="M36.502 8.97577L36.5322 8.9502"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="col mediaicon">
+            <svg
+              width="35"
+              height="36"
+              viewBox="0 0 46 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M44.9997 1.03692C44.9997 1.03692 40.9487 3.30018 38.6961 3.94168C37.487 2.62696 35.8802 1.69512 34.093 1.27219C32.3057 0.849269 30.4243 0.955643 28.7031 1.57696C26.9819 2.19827 25.5037 3.30453 24.4691 4.74611C23.4342 6.1877 22.8926 7.89506 22.9173 9.63729V11.5358C19.3893 11.6223 15.8937 10.8824 12.7414 9.38182C9.58908 7.88127 6.87814 5.66674 4.84993 2.93545C4.84993 2.93545 -3.18001 20.0223 14.8874 27.6165C10.753 30.2705 5.8279 31.6013 0.834961 31.4136C18.9023 40.9062 40.9847 31.4136 40.9847 9.58033C40.9829 9.05149 40.9291 8.52397 40.8241 8.00454C42.8729 6.09365 44.9997 1.03692 44.9997 1.03692Z"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="col mediaicon">
+            <svg
+              width="35"
+              height="44"
+              viewBox="0 0 46 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M45.1725 12.4523V31.0157C45.1725 37.4234 39.6799 42.6179 32.9045 42.6179H13.2758C6.50038 42.6179 1.00781 37.4234 1.00781 31.0157L1.00781 12.4523C1.00781 6.04457 6.50038 0.850098 13.2758 0.850098L32.9045 0.850098C39.6799 0.850098 45.1725 6.04457 45.1725 12.4523Z"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M20.6348 42.618C20.6348 35.6567 20.6348 28.6954 20.6348 21.7341C20.6348 16.6582 21.8616 12.4524 30.4491 12.4524"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.7305 24.0542H20.6377H30.452"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="col mediaicon">
+            <svg
+              width="35"
+              height="44"
+              viewBox="0 0 46 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2507 27.4635C7.62603 18.0657 17.4801 10.7563 24.1878 10.7563C30.8955 10.7563 36.3331 14.2099 36.3331 22.2425C36.3331 28.5862 31.9166 32.6844 27.5001 32.6844C23.0837 32.6844 20.8754 28.5077 21.9796 22.2425"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M23.0817 18.0652L16.457 42.0817"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M23.0843 43.1264C35.2799 43.1264 45.1666 33.7763 45.1666 22.2425C45.1666 10.7087 35.2799 1.35864 23.0843 1.35864C10.8885 1.35864 1.00195 10.7087 1.00195 22.2425C1.00195 33.7763 10.8885 43.1264 23.0843 43.1264Z"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <hr />
+        <div class="row row-cols-2">
+          <div class="col">
+            <img class="footerimg" src="./pic/fastyle.png" alt="" />
+          </div>
+          <div class="col"><p>&copy; 2023 joykuo</p></div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
