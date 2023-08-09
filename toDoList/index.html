@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <meta name="author" content="Joy Kuo" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!--header start-->
+    <header>
+      <h1>My To Do List</h1>
+    </header>
+    <!--header end-->
+
+    <!--form start-->
+    <main>
+    <form>
+      <input type="text" />
+      <input type="number" min="1" max="12" placeholder="M" required />
+      <input type="number" min="1" max="31" placeholder="D" required />
+      <button type="submit">Add into List</button>
+    </form>
+    <!--form end-->
+
+    <div class="sort">
+      <button>Sort By Time</button>
+    </div>
+
+    <div class="img">
+      <img src="./picture/Traveling-bro.svg" alt="picture" />
+    </div>
+
+    <section></section>
+    </main>
+
+    <footer>
+      copyright© 2022 Joy Kuo
+    </footer>
+  </body>
+  <script src="./app.js"></script>
+</html>
