@@ -8,10 +8,13 @@ let text3 = document.getElementById("text3");
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
 
-  text.style.top = 15 + value * -0.1 + "%";
-  text2.style.left = value * 1.3 + "px";
-  bird.style.bottom = 50 + value * 1 + "px";
-  svg.style.bottom = value * 0.1 + "px";
-  moon2.style.left = -500 + value * 0.5 + "px";
+  if (value <= 500) {
+    text.style.top = 10 + value * 0.1 + "%";
+    text2.style.left = value * 1.3 + "px";
+    bird.style.bottom = 20 + value * 1 + "px";
+    svg.style.bottom = value * 0.1 + "px";
+  }
+  if (value <= 1000) {
+    moon2.style.left = -500 + value * 0.6 + "px";
+  }
 });
-

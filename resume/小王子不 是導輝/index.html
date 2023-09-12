@@ -7,33 +7,50 @@
     <title>導輝小王子</title>
     <meta name="author" content="Joy Kuo" />
     <link rel="stylesheet" href="./styles/style.css" />
- <!--boxicons link-->
- <link
- rel="stylesheet"
- href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-/>
-<!--remixicon link-->
-<link
- href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
- rel="stylesheet"
-/>
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!--boxicons link-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!--remixicon link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>
-        <a href="#home"
-          >流浪 <br />
-          菜鳥</a
-        >
-      </h1>
-      <div class="bx bx-menu" id="menu-icon"></div>
-      <nav>
-        <ul class="navlist">
-          <li><a href="#home">喔！是導輝</a></li>
-          <li><a href="#second">導輝星球</a></li>
-          <li><a href="#thrid">星空亂飛</a></li>
-          <li><a href="#four">星空物</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg" style="background-color: rgba(0, 0, 0, 0.5)";>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">流浪菜鳥</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#home">喔！是導輝</a>
+              <a class="nav-link" href="#second">導輝星球</a>
+              <a class="nav-link" href="#thrid">星空亂舞</a>
+              <a class="nav-link" href="#four">星空物</a>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
@@ -143,7 +160,6 @@
         <div class="content">
           <h2>在導輝星球外太空可以看到...</h2>
           <div class="imgs">
-            
             <div id="pic" class="pic">
               <div class="box">
                 <img src="./pic/IMG_0930.PNG" alt="迷之噴罐" />
@@ -183,5 +199,11 @@
 
     <script src="./app.js"></script>
     <script src="./menu.js"></script>
+    <!-- bootstrap js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
