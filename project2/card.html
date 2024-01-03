@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>勵志名言</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar link from bootstrap -->
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="./index.html"
+            style="color: rgb(121, 120, 109)"
+            >勵志名言</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="blackBox">
+        <div class="boxB">
+          <h1>勵志名言</h1>
+            <button onclick="redirectToFightingPage()">開始</button>
+         
+        </div>
+
+        <div class="end">
+          <p>
+            使 用 說 明 書<br />
+            點選“開始”<br />
+            你一定要有信心
+          </p>
+        </div>
+      </div>
+    </main>
+    <script>
+      function redirectToFightingPage() {
+        // 生成一個隨機數字當作參數，用來識別不同的隨機文字
+        var randomNumber = Math.floor(Math.random() * 1000000);
+
+        // 導向到另一個HTML頁面，將隨機數字作為參數傳遞
+        window.location.href = "fightingPage.html?randomNumber=" + randomNumber;
+      }
+    </script>
+
+    <script src="./app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
