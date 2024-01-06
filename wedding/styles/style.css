@@ -421,6 +421,9 @@ main section.sixth .box form .button:hover {
     text-align: center;
     margin-top: 4vh;
   }
+  main section.first .twopart .wordpart .circle2 {
+    display: none;
+  }
   main section.first .twopart .wordpart h3 {
     font-size: 2em;
   }
@@ -435,5 +438,160 @@ main section.sixth .box form .button:hover {
   }
   main section.first .twopart .imgpart img {
     width: 100%;
+  }
+  main section.second .twopart2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.second .twopart2 .wordpart2 {
+    margin-top: -10vh;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  main section.second .twopart2 .imgpart2 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.second .twopart2 .imgpart2 .img1 {
+    width: 60%;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  main section.second .twopart2 .imgpart2 .img2 {
+    width: 80%;
+    margin-top: 4vh;
+    margin-left: 0px;
+  }
+  main section.third .twopart3 {
+    background-image: url(/wedding/pic/unsplash_NkQD-RHhbvY.png);
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.third .twopart3 .wordpart3 {
+    margin-top: -10vh;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  main section.third .twopart3 .imgpart3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.third .twopart3 .imgpart3 .img1 {
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  main section.third .twopart3 .imgpart3 .img2 {
+    width: 60%;
+    margin-top: 4vh;
+    margin-left: 0px;
+  }
+  main section.fourth .twopart4 {
+    margin-top: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.fourth .twopart4 .imgpart4 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.fourth .twopart4 .imgpart4 .img1 {
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  main section.fourth .twopart4 .imgpart4 .img2 {
+    width: 80%;
+    margin-top: 0vh;
+    margin-left: 0px;
+  }
+  main section.fourth .twopart4 .imgpart4 .img3 {
+    width: 80%;
+    margin-top: 0vh;
+    margin-left: 0px;
+  }
+  main section.fourth .twopart4 .wordpart4 {
+    margin-top: 0vh;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  main section.fourth .twopart4 .wordpart4 h1 {
+    margin-top: -60vh;
+  }
+  main section.fifth .twopart5 {
+    margin-top: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.fifth .twopart5 .imgpart5 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.fifth .twopart5 .imgpart5 .img1 {
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  main section.fifth .twopart5 .imgpart5 .img2 {
+    width: 80%;
+    margin-top: -5vh;
+    margin-left: 0px;
+  }
+  main section.fifth .twopart5 .imgpart5 .img3 {
+    width: 80%;
+    margin-top: -19vh;
+    margin-left: 0px;
+  }
+  main section.fifth .twopart5 .wordpart5 {
+    margin-top: 0vh;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  main section.fifth .twopart5 .wordpart5 h1 {
+    margin-top: -60vh;
+  }
+  main section.sixth {
+    height: 80vh;
+    margin-top: 50vh;
+  }
+  main section.sixth .box {
+    height: 620px;
+    width: 90%;
+  }
+  main section.sixth .box h1 {
+    text-align: center;
+    margin-left: 0vw;
+    font-size: 1.5em;
+    margin-top: 2vh;
+  }
+  main section.sixth .box form input {
+    width: 200px;
+  }
+  main section.sixth .box form textarea {
+    width: 250px;
+  }
+  main section.sixth .box form .button {
+    width: 150px;
   }
 }/*# sourceMappingURL=style.css.map */

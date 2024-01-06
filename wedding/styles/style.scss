@@ -505,6 +505,9 @@ main {
         .wordpart{
           text-align: center;
           margin-top: 4vh;
+          .circle2{
+            display: none;
+          }
           h3{
             font-size: 2em;
           }
@@ -519,6 +522,171 @@ main {
           width: 100%;
           img{
             width: 100%;
+          }
+        }
+      }
+    }
+    section.second{
+      .twopart2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .wordpart2{
+          margin-top: -10vh;
+          text-align: center;
+          margin-left: 0vw;
+        }
+        .imgpart2{
+          height: 80vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .img1{
+            width: 60%;
+            margin-top: 10vh;
+            margin-left: 0vw;
+          }
+          .img2{
+            width: 80%;
+            margin-top: 4vh;
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+    section.third{
+      .twopart3{
+        background-image: url(/wedding/pic/unsplash_NkQD-RHhbvY.png);
+        margin-top: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .wordpart3{
+          margin-top: -10vh;
+          text-align: center;
+          margin-left: 0vw;
+        }
+        .imgpart3{
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .img1{
+            width: 80%;
+            margin-top: 10vh;
+            margin-left: 0vw;
+          }
+          .img2{
+            width: 60%;
+            margin-top: 4vh;
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+    section.fourth{
+      .twopart4{
+        margin-top: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .imgpart4{
+          height: 90vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .img1{
+            width: 80%;
+            margin-top: 10vh;
+            margin-left: 0vw;
+          }
+          .img2{
+            width: 80%;
+            margin-top: 0vh;
+            margin-left: 0px;
+          }
+          .img3{
+            width: 80%;
+            margin-top: 0vh;
+            margin-left: 0px;
+          }
+        }
+        .wordpart4{
+          margin-top: 0vh;
+          text-align: center;
+          margin-left: 0vw;
+          h1{
+            margin-top: -60vh;
+          }
+        }
+      }
+    }
+    section.fifth{
+      .twopart5{
+        margin-top: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .imgpart5{
+          height: 90vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .img1{
+            width: 80%;
+            margin-top: 10vh;
+            margin-left: 0vw;
+          }
+          .img2{
+            width: 80%;
+            margin-top: -5vh;
+            margin-left: 0px;
+          }
+          .img3{
+            width: 80%;
+            margin-top: -19vh;
+            margin-left: 0px;
+          }
+        }
+        .wordpart5{
+          margin-top: 0vh;
+          text-align: center;
+          margin-left: 0vw;
+          h1{
+            margin-top: -60vh;
+          }
+        }
+      }
+    }
+    section.sixth{
+      height: 80vh;
+      margin-top: 50vh;
+      .box{
+        height: 620px;
+        width: 90%;
+        h1{
+          text-align: center;
+          margin-left: 0vw;
+          font-size: 1.5em;
+          margin-top: 2vh;
+        }
+        form{
+          input{
+            width: 200px;
+          }
+          textarea{
+            width: 250px;
+          }
+          .button{
+            width: 150px;
           }
         }
       }
