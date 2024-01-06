@@ -411,7 +411,7 @@ main section.sixth .box form .button:hover {
     height: 70vh;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 430px) { /*phone*/
   main section.first .twopart {
     flex-direction: column;
     justify-content: center;
@@ -452,7 +452,7 @@ main section.sixth .box form .button:hover {
     margin-left: 0vw;
   }
   main section.second .twopart2 .imgpart2 {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -482,7 +482,7 @@ main section.sixth .box form .button:hover {
     margin-left: 0vw;
   }
   main section.third .twopart3 .imgpart3 {
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -506,7 +506,7 @@ main section.sixth .box form .button:hover {
     align-items: center;
   }
   main section.fourth .twopart4 .imgpart4 {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -536,7 +536,7 @@ main section.sixth .box form .button:hover {
     margin-top: -60vh;
   }
   main section.fifth .twopart5 {
-    margin-top: 120vh;
+    margin-top: 130vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
