@@ -98,7 +98,6 @@ main {
         .img1 {
           width: 25%;
           margin-left: 116px;
-          top: 94px;
         }
         .img2 {
           width: 50%;
@@ -255,6 +254,7 @@ main {
   }
   section.sixth {
     background-image: url(/wedding/pic/unsplash_NkQD-RHhbvY.png);
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -335,32 +335,191 @@ main {
   }
 }
 
-
 @media screen and (max-width: 1078px) {
-  section.first {
-    .twopart {
-      .wordpart {
-        h3 {
-          margin-left: 5vw;
+  main {
+    section.first {
+      .twopart {
+        .wordpart {
+          h3 {
+            margin-left: 5vw;
+          }
+          h1 {
+            position: relative;
+            left: -50px;
+          }
         }
-        h1 {
-          position: relative;
-          left: -50px;
+      }
+    }
+    section.second {
+      .twopart2 {
+        .imgpart2 {
+          height: 70vh;
+        }
+      }
+    }
+    section.third {
+      .twopart3 {
+        .imgpart3 {
+          height: 80vh;
+        }
+      }
+    }
+    section.fourth {
+      .twopart4 {
+        .imgpart4 {
+          height: 80vh;
+        }
+      }
+    }
+    section.fifth {
+      .twopart5 {
+        .imgpart5 {
+          height: 80vh;
         }
       }
     }
   }
 }
 
-@media screen and (max-width: 865px) {
-  section.first {
-    .twopart {
-      .wordpart {
-        h3 {
-          font-size: 2em;
+@media screen and (max-width: 898px) {
+  main {
+    section.first {
+      .twopart {
+        .wordpart {
+          h3 {
+            font-size: 2.5em;
+          }
+          h1 {
+            font-size: 3.5em;
+          }
         }
-        h1 {
-          font-size: 3em;
+      }
+    }
+    section.second {
+      .twopart2 {
+        .imgpart2 {
+          height: 60vh;
+          .img2 {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+    section.third {
+      .twopart3 {
+        .imgpart3 {
+          height: 80vh;
+        }
+      }
+    }
+    section.fourth {
+      .twopart4 {
+        .imgpart4 {
+          height: 70vh;
+        }
+      }
+    }
+    section.fifth {
+      .twopart5 {
+        .imgpart5 {
+          height: 80vh;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  main {
+    section.first {
+      .twopart {
+        .wordpart {
+          h3 {
+            font-size: 2em;
+          }
+          svg{
+            margin-left: 3vw;
+            width: 300px;
+          }
+          h1 {
+            font-size: 3em;
+          }
+        }
+      }
+    }
+    section.second {
+      .twopart2 {
+        .imgpart2 {
+          height: 60vh;
+          .img1{
+            margin-left: 60px;
+          }
+          .img2 {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+    section.third {
+      .twopart3 {
+        .imgpart3 {
+          height: 60vh;
+          .img1{
+            margin-top: 20vh;
+          }
+        }
+      }
+    }
+    section.fourth {
+      .twopart4 {
+        .imgpart4 {
+          height: 70vh;
+          .img1{
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+    section.fifth {
+      .twopart5 {
+        .wordpart5{
+          svg{
+            width: 200px;
+          }
+        }
+        .imgpart5 {
+          height: 70vh;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:430px) {
+  main{
+    section.first{
+      .twopart{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .wordpart{
+          text-align: center;
+          margin-top: 4vh;
+          h3{
+            font-size: 2em;
+          }
+          svg{
+            margin-left: -10vw;
+          }
+          h1{
+            font-size: 3em;
+          }
+        }
+        .imgpart{
+          width: 100%;
+          img{
+            width: 100%;
+          }
         }
       }
     }
