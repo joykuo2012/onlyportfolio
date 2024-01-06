@@ -67,7 +67,7 @@ main .blackBox .boxB {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
   width: 60%;
   height: 60vh;
   background: rgb(184, 183, 166);
@@ -101,7 +101,7 @@ main .blackBox .boxB button:hover {
   background-color: #8c825f;
 }
 main .blackBox p {
-  margin-top: 8vh;
+  margin-top: 4vh;
   text-align: center;
   color: #676767;
   font-weight: 300;
@@ -109,7 +109,7 @@ main .blackBox p {
 }
 main .blackBox svg {
   width: 200px;
-  margin-top: -20vh;
+  margin-top: -30vh;
   margin-right: 85vw;
   cursor: pointer;
 }
@@ -146,7 +146,7 @@ main .boxC {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
   width: 60%;
   height: 60vh;
   box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.1);
@@ -166,27 +166,71 @@ main #randomText {
   main section.first .sel {
     gap: 5vw;
   }
-}
-@media screen and (max-width: 1100px) {
-  main section.first .sel a .box {
-    width: 400px;
+  main section.first .sel img {
+    margin-left: 0vw;
+    margin-right: 0vw;
   }
 }
 @media screen and (max-width: 883px) {
+  main section.first .sel img {
+    display: none;
+  }
   main section.first .sel a .box {
-    width: 300px;
+    width: 500px;
+  }
+  main .blackBox .boxB h1 {
+    font-size: 3em;
+  }
+  main .blackBox svg {
+    margin-left: 100px;
   }
 }
 @media screen and (max-width: 673px) {
   main section.first .sel {
     flex-direction: column;
-    margin-top: 4vh;
+  }
+  main section.first .sel a {
+    display: flex;
+    justify-content: center;
+  }
+  main .blackBox .boxB {
+    width: 90%;
+  }
+  main .blackBox .boxC {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 548px) {
+  main section.first .sel {
+    flex-direction: column;
   }
   main section.first .sel a {
     display: flex;
     justify-content: center;
   }
   main section.first .sel a .box {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 447px) {
+  .blackBox .boxB {
     height: 40vh;
+  }
+  .blackBox .boxB h1 {
+    width: 50%;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 430px) {
+  main section.first .sel a .box {
+    margin-top: 15vh;
+    width: 300px;
+    height: 40vh;
+  }
+  main .blackBox p {
+    margin-left: 100px;
+  }
+  main .blackBox svg {
+    margin-left: 100px;
   }
 }/*# sourceMappingURL=style.css.map */

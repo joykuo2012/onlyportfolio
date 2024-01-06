@@ -254,14 +254,14 @@ main {
     }
   }
   section.sixth {
-    background-image: url(/pic/unsplash_NkQD-RHhbvY.png);
+    background-image: url(/wedding/pic/unsplash_NkQD-RHhbvY.png);
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     .box {
-      width: 1084px;
+      width: 80%;
       height: 689px;
       left: 214px;
       top: 146px;
@@ -335,5 +335,34 @@ main {
   }
 }
 
-@media screen and (max-width: px) {
+
+@media screen and (max-width: 1078px) {
+  section.first {
+    .twopart {
+      .wordpart {
+        h3 {
+          margin-left: 5vw;
+        }
+        h1 {
+          position: relative;
+          left: -50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 865px) {
+  section.first {
+    .twopart {
+      .wordpart {
+        h3 {
+          font-size: 2em;
+        }
+        h1 {
+          font-size: 3em;
+        }
+      }
+    }
+  }
 }

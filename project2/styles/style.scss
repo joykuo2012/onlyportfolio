@@ -75,7 +75,7 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 10vh;
+      margin-top: 5vh;
       width: 60%;
       height: 60vh;
       background: rgb(184, 183, 166);
@@ -110,7 +110,7 @@ main {
     }
 
     p {
-      margin-top: 8vh;
+      margin-top: 4vh;
       text-align: center;
       color: #676767;
       font-weight: 300;
@@ -119,7 +119,7 @@ main {
     //which
     svg {
       width: 200px;
-      margin-top: -20vh;
+      margin-top: -30vh;
       margin-right: 85vw;
       cursor: pointer;
       #darkGroup {
@@ -159,7 +159,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: 60%;
     height: 60vh;
     box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.1);
@@ -181,6 +181,10 @@ main {
     section.first {
       .sel {
         gap: 5vw;
+        img {
+          margin-left: 0vw;
+          margin-right: 0vw;
+        }
       }
     }
   }
@@ -188,15 +192,6 @@ main {
 
 @media screen and (max-width: 1100px) {
   main {
-    section.first {
-      .sel {
-        a {
-          .box {
-            width: 400px;
-          }
-        }
-      }
-    }
   }
 }
 
@@ -204,11 +199,24 @@ main {
   main {
     section.first {
       .sel {
+        img {
+          display: none;
+        }
         a {
           .box {
-            width: 300px;
+            width: 500px;
           }
         }
+      }
+    }
+    .blackBox {
+      .boxB {
+        h1 {
+          font-size: 3em;
+        }
+      }
+      svg {
+        margin-left: 100px;
       }
     }
   }
@@ -220,14 +228,73 @@ main {
     section.first {
       .sel {
         flex-direction: column;
-        margin-top: 4vh;
+        a {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    .blackBox {
+      .boxB {
+        width: 90%;
+      }
+      .boxC {
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 548px) {
+  main {
+    //first page part
+    section.first {
+      .sel {
+        flex-direction: column;
         a {
           display: flex;
           justify-content: center;
           .box {
+            width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .blackBox {
+    .boxB {
+      height: 40vh;
+      h1 {
+        width: 50%;
+        margin-right: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  main {
+    //first page part
+    section.first {
+      .sel {
+        a {
+          .box {
+            margin-top: 15vh;
+            width: 300px;
             height: 40vh;
           }
         }
+      }
+    }
+    .blackBox {
+      p {
+        margin-left: 100px;
+      }
+      svg {
+        margin-left: 100px;
       }
     }
   }
