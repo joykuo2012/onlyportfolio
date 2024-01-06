@@ -426,6 +426,7 @@ main section.sixth .box form .button:hover {
   }
   main section.first .twopart .wordpart h3 {
     font-size: 2em;
+    margin-top: 10vh;
   }
   main section.first .twopart .wordpart svg {
     margin-left: -10vw;

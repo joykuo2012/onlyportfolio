@@ -437,7 +437,7 @@ main {
           h3 {
             font-size: 2em;
           }
-          svg{
+          svg {
             margin-left: 3vw;
             width: 300px;
           }
@@ -451,7 +451,7 @@ main {
       .twopart2 {
         .imgpart2 {
           height: 60vh;
-          .img1{
+          .img1 {
             margin-left: 60px;
           }
           .img2 {
@@ -464,7 +464,7 @@ main {
       .twopart3 {
         .imgpart3 {
           height: 60vh;
-          .img1{
+          .img1 {
             margin-top: 20vh;
           }
         }
@@ -474,7 +474,7 @@ main {
       .twopart4 {
         .imgpart4 {
           height: 70vh;
-          .img1{
+          .img1 {
             margin-top: 30px;
           }
         }
@@ -482,8 +482,8 @@ main {
     }
     section.fifth {
       .twopart5 {
-        .wordpart5{
-          svg{
+        .wordpart5 {
+          svg {
             width: 200px;
           }
         }
@@ -495,60 +495,61 @@ main {
   }
 }
 
-@media screen and (max-width:430px) {
-  main{
-    section.first{
-      .twopart{
+@media screen and (max-width: 430px) {
+  main {
+    section.first {
+      .twopart {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .wordpart{
+        .wordpart {
           text-align: center;
           margin-top: 4vh;
-          .circle2{
+          .circle2 {
             display: none;
           }
-          h3{
+          h3 {
             font-size: 2em;
+            margin-top: 10vh;
           }
-          svg{
+          svg {
             margin-left: -10vw;
           }
-          h1{
+          h1 {
             font-size: 3em;
           }
         }
-        .imgpart{
+        .imgpart {
           width: 100%;
-          img{
+          img {
             width: 100%;
           }
         }
       }
     }
-    section.second{
-      .twopart2{
+    section.second {
+      .twopart2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .wordpart2{
+        .wordpart2 {
           margin-top: -10vh;
           text-align: center;
           margin-left: 0vw;
         }
-        .imgpart2{
+        .imgpart2 {
           height: 80vh;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          .img1{
+          .img1 {
             width: 60%;
             margin-top: 10vh;
             margin-left: 0vw;
           }
-          .img2{
+          .img2 {
             width: 80%;
             margin-top: 4vh;
             margin-left: 0px;
@@ -556,31 +557,31 @@ main {
         }
       }
     }
-    section.third{
-      .twopart3{
+    section.third {
+      .twopart3 {
         background-image: url(/wedding/pic/unsplash_NkQD-RHhbvY.png);
         margin-top: 20vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .wordpart3{
+        .wordpart3 {
           margin-top: -10vh;
           text-align: center;
           margin-left: 0vw;
         }
-        .imgpart3{
+        .imgpart3 {
           height: 100vh;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          .img1{
+          .img1 {
             width: 80%;
             margin-top: 10vh;
             margin-left: 0vw;
           }
-          .img2{
+          .img2 {
             width: 60%;
             margin-top: 4vh;
             margin-left: 0px;
@@ -588,104 +589,104 @@ main {
         }
       }
     }
-    section.fourth{
-      .twopart4{
+    section.fourth {
+      .twopart4 {
         margin-top: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .imgpart4{
+        .imgpart4 {
           height: 90vh;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          .img1{
+          .img1 {
             width: 80%;
             margin-top: 10vh;
             margin-left: 0vw;
           }
-          .img2{
+          .img2 {
             width: 80%;
             margin-top: 0vh;
             margin-left: 0px;
           }
-          .img3{
+          .img3 {
             width: 80%;
             margin-top: 0vh;
             margin-left: 0px;
           }
         }
-        .wordpart4{
+        .wordpart4 {
           margin-top: 0vh;
           text-align: center;
           margin-left: 0vw;
-          h1{
+          h1 {
             margin-top: -60vh;
           }
         }
       }
     }
-    section.fifth{
-      .twopart5{
+    section.fifth {
+      .twopart5 {
         margin-top: 120vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .imgpart5{
+        .imgpart5 {
           height: 90vh;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          .img1{
+          .img1 {
             width: 80%;
             margin-top: 10vh;
             margin-left: 0vw;
           }
-          .img2{
+          .img2 {
             width: 80%;
             margin-top: -5vh;
             margin-left: 0px;
           }
-          .img3{
+          .img3 {
             width: 80%;
             margin-top: -19vh;
             margin-left: 0px;
           }
         }
-        .wordpart5{
+        .wordpart5 {
           margin-top: 0vh;
           text-align: center;
           margin-left: 0vw;
-          h1{
+          h1 {
             margin-top: -60vh;
           }
         }
       }
     }
-    section.sixth{
+    section.sixth {
       height: 80vh;
       margin-top: 50vh;
-      .box{
+      .box {
         height: 620px;
         width: 90%;
-        h1{
+        h1 {
           text-align: center;
           margin-left: 0vw;
           font-size: 1.5em;
           margin-top: 2vh;
         }
-        form{
-          input{
+        form {
+          input {
             width: 200px;
           }
-          textarea{
+          textarea {
             width: 250px;
           }
-          .button{
+          .button {
             width: 150px;
           }
         }
