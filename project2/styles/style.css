@@ -161,6 +161,9 @@ main #randomText {
   letter-spacing: 5px;
   font-weight: 300;
 }
+main p {
+  color: #676767;
+}
 
 @media screen and (max-width: 1200px) {
   main section.first .sel {
@@ -230,7 +233,6 @@ main #randomText {
   main .blackBox p {
     margin-top: 5vh;
     margin-left: 100px;
-    color: #615d4e;
   }
   main .blackBox svg {
     margin-left: 100px;
@@ -240,6 +242,6 @@ main #randomText {
     margin-left: 0px;
   }
   main #randomText {
-    font-size: 20px;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */

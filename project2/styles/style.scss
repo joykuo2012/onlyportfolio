@@ -176,6 +176,9 @@ main {
     letter-spacing: 5px;
     font-weight: 300;
   }
+  p{
+    color:#676767
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -295,21 +298,19 @@ main {
       p {
         margin-top: 5vh;
         margin-left: 100px;
-        color: #615d4e;
       }
       svg {
         margin-left: 100px;
         margin-top: -25vh;
       }
     }
-    .end{
-      p{
+    .end {
+      p {
         margin-left: 0px;
       }
     }
-    #randomText{
-      font-size: 20px;
+    #randomText {
+      font-size: 15px;
     }
   }
-  
 }
