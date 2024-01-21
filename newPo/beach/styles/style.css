@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body header .navbar {
+  background-color: white;
+}
+body header .justify-content-end .nav-item .nav-link {
+  color: #447da5;
+}
+body header .justify-content-end .nav-item .nav-link:hover {
+  color: #274860;
+}
+body header .justify-content-end .btn {
+  background-color: #447da5;
+  padding: 0px 20px;
+}
+body header .justify-content-end svg {
+  margin-left: 10px;
+}
+body main {
+  width: 100%;
+}
+body main section.second {
+  margin-top: 10vh;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+}
+body main section.second .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border-radius: 50px;
+  background-color: #8dccc5;
+}
+body main section.second .box p {
+  color: #eefffd;
+  padding: 15px;
+  width: 70%;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  text-align: center;
+}
+body main section.third {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main section.third .img5 {
+  width: 70%;
+  margin-left: 15vw;
+}
+body main section.third p {
+  margin-left: 25vw;
+  margin-top: 10vh;
+  width: 50%;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  text-align: center;
+  letter-spacing: 0.16em;
+  color: #48938a;
+}
+body main section.third2 {
+  width: 100%;
+}
+body main section.third2 .container .row .col marquee .img6 {
+  width: 40%;
+  padding: 10px;
+}
+body main section.third2 .container .row .stop {
+  background-color: #8dccc5;
+  display: flex;
+}
+body main section.third2 .container .row .stop .img7 {
+  width: 50%;
+  padding: 10px;
+}
+body main .word {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+body main .word .img9 {
+  width: 70%;
+}
+body main section.fourth {
+  display: grid;
+  justify-content: center;
+}
+body main section.fourth .container .img10 {
+  margin-top: 40px;
+  padding: 10px;
+  width: 100%;
+}
+body main section.fourth .container .btn {
+  background-color: #417e77;
+  width: 95%;
+  height: 85%;
+  color: white;
+  font-size: 3em;
+  margin-top: 7vh;
+  margin-left: 10px;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+body main section.fourth .container .btn:hover {
+  background-color: #274860;
+}
+body main section.fifth {
+  width: 100%;
+  margin-top: 10vh;
+}
+body main section.fifth .box {
+  background-color: #8dccc5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+body main section.fifth .box .img11 {
+  width: 70%;
+  margin-top: 10vh;
+  margin-left: 15vw;
+}
+body main section.fifth .box .btn {
+  background-color: #417e77;
+  margin: 10vh;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+  transition: 0.4s ease;
+}
+body main section.fifth .box .btn:hover {
+  background-color: #274860;
+}
+body main section.fifth .box .container .row .col img {
+  width: 100%;
+  margin-top: 10vh;
+}
+body main section.sixth {
+  display: flex;
+  flex-direction: column;
+}
+body main section.sixth .img11 {
+  width: 70%;
+  margin-top: 10vh;
+  margin-left: 15vw;
+}
+body main section.sixth p {
+  margin-top: 10vh;
+  margin-left: 25vw;
+  width: 50%;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  text-align: center;
+  letter-spacing: 0.16em;
+  color: #48938a;
+}
+body main section.sixth .container {
+  margin-top: 10vh;
+}
+body main section.sixth .container .row .col-sm img {
+  width: 100%;
+}
+body footer {
+  margin-top: 10vh;
+  background-color: #447da5;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body footer img {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+@media screen and (width: 991px) {
+  body main section.third2 .container .row .col marquee .img6 {
+    width: 60%;
+  }
+  body main section.third2 .container .row .stop .img7 {
+    width: 70%;
+    margin-left: -10vw;
+    padding: 0px 20px;
+  }
+  body main section.fourth .container .btn {
+    width: 91%;
+    height: 77%;
+    font-size: 1.5em;
+  }
+}/*# sourceMappingURL=style.css.map */

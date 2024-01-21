@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body main section.newpro {
+  display: flex;
+  flex-direction: column;
+}
+body main section.newpro .grid .g-col-4 img {
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */

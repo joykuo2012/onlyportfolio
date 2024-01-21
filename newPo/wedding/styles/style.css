@@ -1,0 +1,598 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+main section.first .twopart {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+main section.first .twopart .wordpart .circle1 {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  left: -65px;
+  border-radius: 150px;
+  top: -30px;
+  background: rgba(255, 197, 197, 0.61);
+  z-index: -1;
+}
+main section.first .twopart .wordpart .circle2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 413px;
+  top: 609px;
+  border-radius: 150px;
+  background: rgba(255, 197, 197, 0.61);
+  z-index: -1;
+}
+main section.first .twopart .wordpart .circle3 {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 270px;
+  top: 709px;
+  border-radius: 150px;
+  background: rgba(255, 197, 197, 0.61);
+  z-index: -1;
+}
+main section.first .twopart .wordpart h3 {
+  font-size: 3em;
+  letter-spacing: 10px;
+  color: #cc7878;
+  font-weight: 300;
+  margin-bottom: 5vh;
+}
+main section.first .twopart .wordpart svg {
+  margin-left: 10vw;
+}
+main section.first .twopart .wordpart h1 {
+  color: #f4abb3;
+  font-weight: 300;
+  font-size: 4.5em;
+  margin-left: 18vw;
+  margin-top: 5vh;
+}
+main section.first .twopart .imgpart {
+  width: 50%;
+}
+main section.first .twopart .imgpart img {
+  width: 90%;
+  margin-top: 5vh;
+  margin-right: -10vw;
+}
+main section.second {
+  width: 100%;
+  margin-top: 20vh;
+}
+main section.second .twopart2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main section.second .twopart2 .wordpart2 {
+  margin-left: 30vw;
+  margin-bottom: -10vh;
+}
+main section.second .twopart2 .wordpart2 h1 {
+  font-weight: 300;
+  letter-spacing: 10px;
+  color: #e6a6a6;
+  text-align: center;
+}
+main section.second .twopart2 .imgpart2 {
+  width: 100%;
+  height: 100vh;
+}
+main section.second .twopart2 .imgpart2 .img1 {
+  width: 25%;
+  margin-left: 116px;
+}
+main section.second .twopart2 .imgpart2 .img2 {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: -10vh;
+}
+main section.third {
+  width: 100%;
+}
+main section.third .twopart3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main section.third .twopart3 .wordpart3 {
+  margin-left: -40vw;
+  margin-bottom: -10vh;
+}
+main section.third .twopart3 .wordpart3 h1 {
+  font-weight: 300;
+  letter-spacing: 10px;
+  color: #e6a6a6;
+  text-align: center;
+}
+main section.third .twopart3 .imgpart3 {
+  width: 100%;
+  height: 100vh;
+}
+main section.third .twopart3 .imgpart3 .img1 {
+  width: 40%;
+  margin-left: 10vw;
+  margin-top: 200px;
+}
+main section.third .twopart3 .imgpart3 .img2 {
+  width: 20%;
+  margin-left: 20vw;
+  margin-bottom: -10vh;
+}
+main section.fourth {
+  width: 100%;
+}
+main section.fourth .twopart4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main section.fourth .twopart4 .imgpart4 {
+  width: 100%;
+  height: 100vh;
+}
+main section.fourth .twopart4 .imgpart4 .img1 {
+  width: 25%;
+  margin-left: 5vw;
+  margin-bottom: 10vh;
+}
+main section.fourth .twopart4 .imgpart4 .img2 {
+  width: 25%;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+}
+main section.fourth .twopart4 .imgpart4 .img3 {
+  width: 30%;
+  margin-left: 5vw;
+  margin-bottom: 10vh;
+}
+main section.fourth .twopart4 .wordpart4 {
+  text-align: center;
+}
+main section.fourth .twopart4 .wordpart4 h1 {
+  font-weight: 300;
+  letter-spacing: 10px;
+  color: #e6a6a6;
+  text-align: center;
+}
+main section.third {
+  width: 100%;
+}
+main section.third .twopart3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main section.third .twopart3 .wordpart3 {
+  margin-left: -40vw;
+  margin-bottom: -10vh;
+}
+main section.third .twopart3 .wordpart3 h1 {
+  font-weight: 300;
+  letter-spacing: 10px;
+  color: #e6a6a6;
+  text-align: center;
+}
+main section.third .twopart3 .imgpart3 {
+  width: 100%;
+  height: 100vh;
+}
+main section.third .twopart3 .imgpart3 .img1 {
+  width: 40%;
+  margin-left: 10vw;
+  margin-top: 200px;
+}
+main section.third .twopart3 .imgpart3 .img2 {
+  width: 20%;
+  margin-left: 20vw;
+  margin-bottom: -10vh;
+}
+main section.fifth {
+  width: 100%;
+}
+main section.fifth .twopart5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main section.fifth .twopart5 .imgpart5 {
+  width: 100%;
+  height: 100vh;
+}
+main section.fifth .twopart5 .imgpart5 .img1 {
+  width: 30%;
+  margin-left: 5vw;
+  margin-bottom: 10vh;
+}
+main section.fifth .twopart5 .imgpart5 .img2 {
+  width: 25%;
+  margin-left: 5vw;
+  margin-bottom: 25vh;
+}
+main section.fifth .twopart5 .imgpart5 .img3 {
+  width: 25%;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+}
+main section.fifth .twopart5 .wordpart5 {
+  margin-left: -60vw;
+  margin-bottom: -10vh;
+}
+main section.fifth .twopart5 .wordpart5 h1 {
+  font-weight: 300;
+  letter-spacing: 10px;
+  color: #e6a6a6;
+  text-align: center;
+}
+main section.sixth {
+  background-image: url(/wedding/pic/unsplash_NkQD-RHhbvY.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section.sixth .box {
+  width: 80%;
+  height: 689px;
+  left: 214px;
+  top: 146px;
+  background: rgba(255, 255, 255, 0.81);
+  border-radius: 58px;
+}
+main section.sixth .box h1 {
+  width: 100%;
+  height: 48px;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.32em;
+  color: #bc3c3c;
+}
+main section.sixth .box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section.sixth .box form p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 20px;
+  letter-spacing: 0.14em;
+  color: #885a5a;
+}
+main section.sixth .box form input {
+  width: 525px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 4px 2px rgb(224, 224, 224);
+  border-radius: 14px;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1em;
+}
+main section.sixth .box form textarea {
+  font-size: 1em;
+  width: 525px;
+  height: 167px;
+  left: 536px;
+  top: 592px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.09);
+  border-radius: 14px;
+  border: none;
+  padding: 10px;
+}
+main section.sixth .box form .button {
+  margin-top: 5vh;
+  height: 50px;
+  width: 300px;
+  background-color: #cc7878;
+  box-shadow: none;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 300;
+  text-align: center;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+main section.sixth .box form .button:hover {
+  background-color: #995959;
+}
+
+@media screen and (max-width: 1078px) {
+  main section.first .twopart .wordpart h3 {
+    margin-left: 5vw;
+  }
+  main section.first .twopart .wordpart h1 {
+    position: relative;
+    left: -50px;
+  }
+  main section.second .twopart2 .imgpart2 {
+    height: 70vh;
+  }
+  main section.third .twopart3 .imgpart3 {
+    height: 80vh;
+  }
+  main section.fourth .twopart4 .imgpart4 {
+    height: 80vh;
+  }
+  main section.fifth .twopart5 .imgpart5 {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 898px) {
+  main section.first .twopart .wordpart h3 {
+    font-size: 2.5em;
+  }
+  main section.first .twopart .wordpart h1 {
+    font-size: 3.5em;
+  }
+  main section.second .twopart2 .imgpart2 {
+    height: 60vh;
+  }
+  main section.second .twopart2 .imgpart2 .img2 {
+    margin-left: 40px;
+  }
+  main section.third .twopart3 .imgpart3 {
+    height: 80vh;
+  }
+  main section.fourth .twopart4 .imgpart4 {
+    height: 70vh;
+  }
+  main section.fifth .twopart5 .imgpart5 {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 750px) {
+  main section.first .twopart .wordpart h3 {
+    font-size: 2em;
+  }
+  main section.first .twopart .wordpart svg {
+    margin-left: 3vw;
+    width: 300px;
+  }
+  main section.first .twopart .wordpart h1 {
+    font-size: 3em;
+  }
+  main section.second .twopart2 .imgpart2 {
+    height: 60vh;
+  }
+  main section.second .twopart2 .imgpart2 .img1 {
+    margin-left: 60px;
+  }
+  main section.second .twopart2 .imgpart2 .img2 {
+    margin-left: 40px;
+  }
+  main section.third .twopart3 .imgpart3 {
+    height: 60vh;
+  }
+  main section.third .twopart3 .imgpart3 .img1 {
+    margin-top: 20vh;
+  }
+  main section.fourth .twopart4 .imgpart4 {
+    height: 70vh;
+  }
+  main section.fourth .twopart4 .imgpart4 .img1 {
+    margin-top: 30px;
+  }
+  main section.fifth .twopart5 .wordpart5 svg {
+    width: 200px;
+  }
+  main section.fifth .twopart5 .imgpart5 {
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 430px) { /*phone*/
+  main section.first .twopart {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.first .twopart .wordpart {
+    text-align: center;
+    margin-top: 4vh;
+  }
+  main section.first .twopart .wordpart .circle2 {
+    display: none;
+  }
+  main section.first .twopart .wordpart h3 {
+    font-size: 2em;
+    margin-top: 10vh;
+  }
+  main section.first .twopart .wordpart svg {
+    margin-left: -10vw;
+  }
+  main section.first .twopart .wordpart h1 {
+    font-size: 3em;
+  }
+  main section.first .twopart .imgpart {
+    width: 100%;
+  }
+  main section.first .twopart .imgpart img {
+    width: 100%;
+  }
+  main section.second .twopart2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.second .twopart2 .wordpart2 {
+    margin-top: -10vh;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  main section.second .twopart2 .imgpart2 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.second .twopart2 .imgpart2 .img1 {
+    width: 60%;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  main section.second .twopart2 .imgpart2 .img2 {
+    width: 80%;
+    margin-top: 4vh;
+    margin-left: 0px;
+  }
+  main section.third .twopart3 {
+    background-image: url(/wedding/pic/unsplash_NkQD-RHhbvY.png);
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.third .twopart3 .wordpart3 {
+    margin-top: -10vh;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  main section.third .twopart3 .imgpart3 {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.third .twopart3 .imgpart3 .img1 {
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  main section.third .twopart3 .imgpart3 .img2 {
+    width: 60%;
+    margin-top: 4vh;
+    margin-left: 0px;
+  }
+  main section.fourth .twopart4 {
+    margin-top: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.fourth .twopart4 .imgpart4 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.fourth .twopart4 .imgpart4 .img1 {
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  main section.fourth .twopart4 .imgpart4 .img2 {
+    width: 80%;
+    margin-top: 0vh;
+    margin-left: 0px;
+  }
+  main section.fourth .twopart4 .imgpart4 .img3 {
+    width: 80%;
+    margin-top: 0vh;
+    margin-left: 0px;
+  }
+  main section.fourth .twopart4 .wordpart4 {
+    margin-top: 0vh;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  main section.fourth .twopart4 .wordpart4 h1 {
+    margin-top: -60vh;
+  }
+  main section.fifth .twopart5 {
+    margin-top: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.fifth .twopart5 .imgpart5 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section.fifth .twopart5 .imgpart5 .img1 {
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 0vw;
+  }
+  main section.fifth .twopart5 .imgpart5 .img2 {
+    width: 80%;
+    margin-top: -5vh;
+    margin-left: 0px;
+  }
+  main section.fifth .twopart5 .imgpart5 .img3 {
+    width: 80%;
+    margin-top: -19vh;
+    margin-left: 0px;
+  }
+  main section.fifth .twopart5 .wordpart5 {
+    margin-top: 0vh;
+    text-align: center;
+    margin-left: 0vw;
+  }
+  main section.fifth .twopart5 .wordpart5 h1 {
+    margin-top: -60vh;
+  }
+  main section.sixth {
+    height: 80vh;
+    margin-top: 50vh;
+  }
+  main section.sixth .box {
+    height: 620px;
+    width: 90%;
+  }
+  main section.sixth .box h1 {
+    text-align: center;
+    margin-left: 0vw;
+    font-size: 1.5em;
+    margin-top: 2vh;
+  }
+  main section.sixth .box form input {
+    width: 200px;
+  }
+  main section.sixth .box form textarea {
+    width: 250px;
+  }
+  main section.sixth .box form .button {
+    width: 150px;
+  }
+}/*# sourceMappingURL=style.css.map */
